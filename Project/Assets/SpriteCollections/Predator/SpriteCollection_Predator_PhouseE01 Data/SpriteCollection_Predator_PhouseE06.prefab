@@ -1,0 +1,332 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: SpriteCollection_Predator_PhouseE06
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: PhouseE01_base
+    boundsData:
+    - {x: -.24000001, y: 1.89999998, z: 0}
+    - {x: 4.79999971, y: 6.27999973, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 20.4799995, y: 20.4799995, z: 0}
+    texelSize: {x: .0399999991, y: .0399999991}
+    positions:
+    - {x: -2.63999987, y: -1.24000001, z: 0}
+    - {x: 2.15999985, y: -1.24000001, z: 0}
+    - {x: -2.63999987, y: 5.03999996, z: 0}
+    - {x: 2.15999985, y: 5.03999996, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00781640597, y: .00390820298}
+    - {x: .00781640597, y: .238279298}
+    - {x: .621089816, y: .00390820298}
+    - {x: .621089816, y: .238279298}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b8aab6d6e6863294c8eed8e6074082e4, type: 2}
+    materialId: 0
+    sourceTextureGUID: 003f2f01dc30dd24182e8985a8a0e77d
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PhouseE01_body1
+    boundsData:
+    - {x: .300000012, y: 2.48000002, z: 0}
+    - {x: 3.4000001, y: 3.43999982, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 20.4799995, y: 20.4799995, z: 0}
+    texelSize: {x: .0399999991, y: .0399999991}
+    positions:
+    - {x: -1.39999998, y: .75999999, z: 0}
+    - {x: 2, y: .75999999, z: 0}
+    - {x: -1.39999998, y: 4.19999981, z: 0}
+    - {x: 2, y: 4.19999981, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .636722684, y: .00390820298}
+    - {x: .636722684, y: .169919923}
+    - {x: .972652316, y: .00390820298}
+    - {x: .972652316, y: .169919923}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b8aab6d6e6863294c8eed8e6074082e4, type: 2}
+    materialId: 0
+    sourceTextureGUID: 14a1ef952fa62e44688b4161965719d3
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PhouseE01_body2
+    boundsData:
+    - {x: .300000012, y: 2.48000002, z: 0}
+    - {x: 3.4000001, y: 3.43999982, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 20.4799995, y: 20.4799995, z: 0}
+    texelSize: {x: .0399999991, y: .0399999991}
+    positions:
+    - {x: -1.39999998, y: .75999999, z: 0}
+    - {x: 2, y: .75999999, z: 0}
+    - {x: -1.39999998, y: 4.19999981, z: 0}
+    - {x: 2, y: 4.19999981, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .636722684, y: .177736327}
+    - {x: .636722684, y: .343748033}
+    - {x: .972652316, y: .177736327}
+    - {x: .972652316, y: .343748033}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b8aab6d6e6863294c8eed8e6074082e4, type: 2}
+    materialId: 0
+    sourceTextureGUID: 56323fa3410a26849b86f92ecdf70f3b
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PhouseE01_body3
+    boundsData:
+    - {x: .300000012, y: 2.48000002, z: 0}
+    - {x: 3.4000001, y: 3.43999982, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 20.4799995, y: 20.4799995, z: 0}
+    texelSize: {x: .0399999991, y: .0399999991}
+    positions:
+    - {x: -1.39999998, y: .75999999, z: 0}
+    - {x: 2, y: .75999999, z: 0}
+    - {x: -1.39999998, y: 4.19999981, z: 0}
+    - {x: 2, y: 4.19999981, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00781640597, y: .246095702}
+    - {x: .00781640597, y: .412107408}
+    - {x: .343746096, y: .246095702}
+    - {x: .343746096, y: .412107408}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b8aab6d6e6863294c8eed8e6074082e4, type: 2}
+    materialId: 0
+    sourceTextureGUID: d306909d992a65347927e12f895c0900
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PhouseE01_body4
+    boundsData:
+    - {x: .300000012, y: 2.48000002, z: 0}
+    - {x: 3.4000001, y: 3.43999982, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 20.4799995, y: 20.4799995, z: 0}
+    texelSize: {x: .0399999991, y: .0399999991}
+    positions:
+    - {x: -1.39999998, y: .75999999, z: 0}
+    - {x: 2, y: .75999999, z: 0}
+    - {x: -1.39999998, y: 4.19999981, z: 0}
+    - {x: 2, y: 4.19999981, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .359378904, y: .351564467}
+    - {x: .359378904, y: .517576158}
+    - {x: .695308566, y: .351564467}
+    - {x: .695308566, y: .517576158}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b8aab6d6e6863294c8eed8e6074082e4, type: 2}
+    materialId: 0
+    sourceTextureGUID: a31a7e5095a75d84ea9c7a6a51e09ff7
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PhouseE01_body5
+    boundsData:
+    - {x: .300000012, y: 2.48000002, z: 0}
+    - {x: 3.4000001, y: 3.43999982, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 20.4799995, y: 20.4799995, z: 0}
+    texelSize: {x: .0399999991, y: .0399999991}
+    positions:
+    - {x: -1.39999998, y: .75999999, z: 0}
+    - {x: 2, y: .75999999, z: 0}
+    - {x: -1.39999998, y: 4.19999981, z: 0}
+    - {x: 2, y: 4.19999981, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00781640597, y: .419923842}
+    - {x: .00781640597, y: .585935533}
+    - {x: .343746096, y: .419923842}
+    - {x: .343746096, y: .585935533}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b8aab6d6e6863294c8eed8e6074082e4, type: 2}
+    materialId: 0
+    sourceTextureGUID: d1ff088ba8d72b740a287e0fc9d20f8f
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: b8aab6d6e6863294c8eed8e6074082e4, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 5822408e76aa75544bc49620c089e501, type: 3}
+  pngTextures: []
+  materialPngTextureId: 00000000
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: 575e1480029f93b4082fdbe8703e2639
+  spriteCollectionName: SpriteCollection_Predator_PhouseE01
+  assetName: 
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: 12.5
+  buildKey: 1012309582
+  dataGuid: 54e13e2402e90584ab38392cd364ab63
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

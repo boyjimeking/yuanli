@@ -1,0 +1,9 @@
+import "BuildingVO.proto";
+
+option java_package = "com.pureland.common.protocal";
+option java_outer_classname = "MoveBuildingReqProtocal";
+
+//移动建筑物的位置
+message MoveBuildingReq {
+	repeated BuildingVO building  			= 1; //可能移动多个建筑的位置
+}

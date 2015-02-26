@@ -1,0 +1,8 @@
+option java_package = "com.pureland.common.protocal";
+option java_outer_classname = "NoAuthLoginReqProtocal";
+
+message NoAuthLoginReq {
+	required string machineId 		=1;
+	optional int32 raceType 		=2;	//参考PlayerVO.raceType注释
+	optional string userName        =3;
+}

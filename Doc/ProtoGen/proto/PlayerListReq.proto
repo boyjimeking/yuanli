@@ -1,0 +1,5 @@
+option java_package = "com.pureland.common.protocal";
+option java_outer_classname = "PlayerListReqProtocal";
+
+message PlayerListReq {
+}

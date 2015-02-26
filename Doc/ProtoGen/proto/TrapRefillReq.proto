@@ -1,0 +1,13 @@
+option java_package = "com.pureland.common.protocal";
+option java_outer_classname = "TrapRefillReqProtocal";
+
+//重置陷阱建筑
+message TrapRefillReq {
+	enum RefillType
+	{
+		Single 	 =1;
+		All 	 =2;
+	}
+	required RefillType refillType 	=1;
+	optional int64 sid 				=2; 		//refillType为single时trap建筑的服务器id
+}

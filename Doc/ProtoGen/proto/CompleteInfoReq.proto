@@ -1,0 +1,8 @@
+option java_package = "com.pureland.common.protocal";
+option java_outer_classname = "CompleteInfoReqProtocal";
+
+message CompleteInfoReq {
+	required string account 		=1;
+	required string passwd 			=2;
+	optional string phoneNum        =3;
+}

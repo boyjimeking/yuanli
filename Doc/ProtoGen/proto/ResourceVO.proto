@@ -1,0 +1,9 @@
+import "ResourceType.proto";
+
+option java_package = "com.pureland.common.protocal.vo";
+option java_outer_classname = "ResourceVOProtocal";
+
+message ResourceVO {
+	required ResourceType resourceType 		=1;
+	required int32 resourceCount			=2;
+}

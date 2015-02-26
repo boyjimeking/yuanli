@@ -1,0 +1,8 @@
+option java_package = "com.pureland.common.protocal.vo";
+option java_outer_classname = "ResearchBuildingVOProtocal";
+
+//升级技能类建筑
+message ResearchBuildingVO {
+	required int32 cid 								=1;		//升级的什么技能
+	required int64 endTime							=2;		//升级结束时间
+}

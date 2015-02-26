@@ -1,0 +1,7 @@
+
+option java_package = "com.pureland.common.protocal";
+option java_outer_classname = "BattleReplayReqProtocal";
+
+message BattleReplayReq {
+	required int64 replayId 		=1;		//录像id
+}

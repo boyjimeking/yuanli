@@ -1,0 +1,9 @@
+option java_package = "com.pureland.common.protocal.vo";
+option java_outer_classname = "PlayerLoginSimpleVOProtocal";
+
+message PlayerLoginSimpleVO {
+	required int64 userId 			=1;
+	required int32 raceType 		=2;
+	required string userName        =3;
+	required int32 userLevel        =4;
+}

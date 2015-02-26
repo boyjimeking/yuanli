@@ -1,0 +1,8 @@
+option java_package = "com.pureland.common.protocal.vo";
+option java_outer_classname = "BattleOperationPlaceSoldierVOProtocal";
+
+message BattleOperationPlaceSoldierVO {
+	required int32 cid 											=1;
+	required int32 x 											=2;
+	required int32 y 											=3;
+}

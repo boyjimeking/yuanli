@@ -1,0 +1,164 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: SpriteCollection_Predator_PtrapR01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: PtrapR01_base
+    boundsData:
+    - {x: .0375000089, y: .0875000209, z: 0}
+    - {x: 1.02499998, y: .875, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 12.8000002, y: 12.8000002, z: 0}
+    texelSize: {x: .0250000004, y: .0250000004}
+    positions:
+    - {x: -.474999994, y: -.349999994, z: 0}
+    - {x: .550000012, y: -.349999994, z: 0}
+    - {x: -.474999994, y: .525000036, z: 0}
+    - {x: .550000012, y: .525000036, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .0312656239, y: .437507808}
+    - {x: .671859384, y: .437507808}
+    - {x: .0312656239, y: .710929692}
+    - {x: .671859384, y: .710929692}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 222270aba05600a46a3ffa25a182ff96, type: 2}
+    materialId: 0
+    sourceTextureGUID: 4ecbce2441b7ef6408748c6ed3d6a209
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PtrapR01_body
+    boundsData:
+    - {x: .0749999881, y: .887500048, z: 0}
+    - {x: 1.25, y: 1.375, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 12.8000002, y: 12.8000002, z: 0}
+    texelSize: {x: .0250000004, y: .0250000004}
+    positions:
+    - {x: -.550000012, y: .200000003, z: 0}
+    - {x: .699999988, y: .200000003, z: 0}
+    - {x: -.550000012, y: 1.57500005, z: 0}
+    - {x: .699999988, y: 1.57500005, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .0312656239, y: .0156328119}
+    - {x: .0312656239, y: .406242192}
+    - {x: .890609384, y: .0156328119}
+    - {x: .890609384, y: .406242192}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 222270aba05600a46a3ffa25a182ff96, type: 2}
+    materialId: 0
+    sourceTextureGUID: dd4b597acbb8c6840ac8f650b3bdaf3f
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 222270aba05600a46a3ffa25a182ff96, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 926d37e46cdfa5b4996635797163039e, type: 3}
+  pngTextures: []
+  materialPngTextureId: 00000000
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: 721b1698f8090a14990c852f595d0a62
+  spriteCollectionName: SpriteCollection_Predator_PtrapR01
+  assetName: 
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: 20
+  buildKey: 16940564
+  dataGuid: 6445f853ab3de3d4ab4001d3a9cd4384
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

@@ -1,0 +1,1172 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: SpriteCollection_Predator_PsoldierE01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: PsoldierE01_attack_001
+    boundsData:
+    - {x: .216666818, y: .900000095, z: 0}
+    - {x: 1.16666651, y: 1.80000019, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -.366666436, y: 0, z: 0}
+    - {x: .800000072, y: 0, z: 0}
+    - {x: -.366666436, y: 1.80000019, z: 0}
+    - {x: .800000072, y: 1.80000019, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .433597654, y: .00781640597}
+    - {x: .433597654, y: .144527346}
+    - {x: .644527316, y: .00781640597}
+    - {x: .644527316, y: .144527346}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5b2565e5aa1aff449abb28a9b9258f24, type: 2}
+    materialId: 0
+    sourceTextureGUID: 752526f9a0aef9342beda0469b8cf8db
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PsoldierE01_attack_002
+    boundsData:
+    - {x: .2666668, y: .73333329, z: 0}
+    - {x: 1.40000081, y: 1.53333366, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -.433333635, y: -.0333335921, z: 0}
+    - {x: .966667235, y: -.0333335921, z: 0}
+    - {x: -.433333635, y: 1.50000012, z: 0}
+    - {x: .966667235, y: 1.50000012, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00781640597, y: .222660154}
+    - {x: .171871096, y: .222660154}
+    - {x: .00781640597, y: .402339846}
+    - {x: .171871096, y: .402339846}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5b2565e5aa1aff449abb28a9b9258f24, type: 2}
+    materialId: 0
+    sourceTextureGUID: 2dbf38f8ed3dd0f45bfda31c775e01de
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PsoldierE01_attack_003
+    boundsData:
+    - {x: .200000405, y: .533333302, z: 0}
+    - {x: 1.13333368, y: 1.39999938, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -.366666436, y: -.166666433, z: 0}
+    - {x: .766667247, y: -.166666433, z: 0}
+    - {x: -.366666436, y: 1.23333299, z: 0}
+    - {x: .766667247, y: 1.23333299, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .363285154, y: .707035184}
+    - {x: .363285154, y: .839839816}
+    - {x: .527339816, y: .707035184}
+    - {x: .527339816, y: .839839816}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5b2565e5aa1aff449abb28a9b9258f24, type: 2}
+    materialId: 0
+    sourceTextureGUID: 8e14435353ef56a43b82c10219b3940a
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PsoldierE01_run_001
+    boundsData:
+    - {x: .0166667998, y: .799999714, z: 0}
+    - {x: .96666652, y: 1.86666656, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -.46666646, y: -.133333594, z: 0}
+    - {x: .50000006, y: -.133333594, z: 0}
+    - {x: -.46666646, y: 1.73333299, z: 0}
+    - {x: .50000006, y: 1.73333299, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .625003934, y: .160160154}
+    - {x: .625003934, y: .273433596}
+    - {x: .843746066, y: .160160154}
+    - {x: .843746066, y: .273433596}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5b2565e5aa1aff449abb28a9b9258f24, type: 2}
+    materialId: 0
+    sourceTextureGUID: 352308d525c76f04590c9ac8d161ff6d
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PsoldierE01_run_002
+    boundsData:
+    - {x: 0, y: .749999702, z: 0}
+    - {x: 1.00000012, y: 1.76666653, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -.50000006, y: -.133333594, z: 0}
+    - {x: .50000006, y: -.133333594, z: 0}
+    - {x: -.50000006, y: 1.63333297, z: 0}
+    - {x: .50000006, y: 1.63333297, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .625003934, y: .289066404}
+    - {x: .625003934, y: .406246096}
+    - {x: .832027316, y: .289066404}
+    - {x: .832027316, y: .406246096}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5b2565e5aa1aff449abb28a9b9258f24, type: 2}
+    materialId: 0
+    sourceTextureGUID: 5c4fa837834d4394f988764be540d6b3
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PsoldierE01_run_003
+    boundsData:
+    - {x: 0, y: .783333659, z: 0}
+    - {x: 1.00000012, y: 1.76666737, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -.50000006, y: -.100000009, z: 0}
+    - {x: .50000006, y: -.100000009, z: 0}
+    - {x: -.50000006, y: 1.66666734, z: 0}
+    - {x: .50000006, y: 1.66666734, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .398441404, y: .316410154}
+    - {x: .398441404, y: .433589846}
+    - {x: .605464816, y: .316410154}
+    - {x: .605464816, y: .433589846}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5b2565e5aa1aff449abb28a9b9258f24, type: 2}
+    materialId: 0
+    sourceTextureGUID: b570736fddea64243b273a208413f758
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PsoldierE01_run_004
+    boundsData:
+    - {x: .0166667998, y: .799999714, z: 0}
+    - {x: .96666652, y: 1.86666656, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -.46666646, y: -.133333594, z: 0}
+    - {x: .50000006, y: -.133333594, z: 0}
+    - {x: -.46666646, y: 1.73333299, z: 0}
+    - {x: .50000006, y: 1.73333299, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .859378934, y: .222660154}
+    - {x: .972652316, y: .222660154}
+    - {x: .859378934, y: .441402346}
+    - {x: .972652316, y: .441402346}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5b2565e5aa1aff449abb28a9b9258f24, type: 2}
+    materialId: 0
+    sourceTextureGUID: 26670e0d4c3e0034281f0c7217c87353
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PsoldierE01_run_005
+    boundsData:
+    - {x: .0166667998, y: .766666472, z: 0}
+    - {x: .96666652, y: 1.73333299, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -.46666646, y: -.100000009, z: 0}
+    - {x: .50000006, y: -.100000009, z: 0}
+    - {x: -.46666646, y: 1.63333297, z: 0}
+    - {x: .50000006, y: 1.63333297, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .843753934, y: .457035154}
+    - {x: .957027316, y: .457035154}
+    - {x: .843753934, y: .660152316}
+    - {x: .957027316, y: .660152316}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5b2565e5aa1aff449abb28a9b9258f24, type: 2}
+    materialId: 0
+    sourceTextureGUID: 410bb599b375dc04f806deba25b849d1
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PsoldierE01_run_006
+    boundsData:
+    - {x: .0166667998, y: .783333659, z: 0}
+    - {x: .96666652, y: 1.76666737, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -.46666646, y: -.100000009, z: 0}
+    - {x: .50000006, y: -.100000009, z: 0}
+    - {x: -.46666646, y: 1.66666734, z: 0}
+    - {x: .50000006, y: 1.66666734, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .621097684, y: .421878904}
+    - {x: .621097684, y: .535152316}
+    - {x: .828121066, y: .421878904}
+    - {x: .828121066, y: .535152316}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5b2565e5aa1aff449abb28a9b9258f24, type: 2}
+    materialId: 0
+    sourceTextureGUID: 0d8712baf62ff874695f22e6f6069cc7
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PsoldierE01_run_007
+    boundsData:
+    - {x: .01666677, y: .783333659, z: 0}
+    - {x: 1.16666651, y: 1.76666737, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -.566666484, y: -.100000009, z: 0}
+    - {x: .600000024, y: -.100000009, z: 0}
+    - {x: -.566666484, y: 1.66666734, z: 0}
+    - {x: .600000024, y: 1.66666734, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .187503904, y: .140628904}
+    - {x: .187503904, y: .277339846}
+    - {x: .394527346, y: .140628904}
+    - {x: .394527346, y: .277339846}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5b2565e5aa1aff449abb28a9b9258f24, type: 2}
+    materialId: 0
+    sourceTextureGUID: 3b6f9dabb486cb74c8aa4ae1773ed204
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PsoldierE01_run_008
+    boundsData:
+    - {x: 0, y: .733333647, z: 0}
+    - {x: 1.20000005, y: 1.66666734, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -.600000024, y: -.100000009, z: 0}
+    - {x: .600000024, y: -.100000009, z: 0}
+    - {x: -.600000024, y: 1.56666732, z: 0}
+    - {x: .600000024, y: 1.56666732, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .187503904, y: .292972654}
+    - {x: .187503904, y: .433589846}
+    - {x: .382808596, y: .292972654}
+    - {x: .382808596, y: .433589846}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5b2565e5aa1aff449abb28a9b9258f24, type: 2}
+    materialId: 0
+    sourceTextureGUID: 6ed57bd42f9a4c1489ac01e94d12aceb
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PsoldierE01_run_009
+    boundsData:
+    - {x: .0333335996, y: .75000006, z: 0}
+    - {x: 1.26666725, y: 1.70000017, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -.600000024, y: -.100000009, z: 0}
+    - {x: .666667223, y: -.100000009, z: 0}
+    - {x: -.600000024, y: 1.60000014, z: 0}
+    - {x: .666667223, y: 1.60000014, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00781640597, y: .00781640597}
+    - {x: .156246096, y: .00781640597}
+    - {x: .00781640597, y: .207027346}
+    - {x: .156246096, y: .207027346}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5b2565e5aa1aff449abb28a9b9258f24, type: 2}
+    materialId: 0
+    sourceTextureGUID: a378265a52f7a4b42ae8b1ede182ca53
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PsoldierE01_run_010
+    boundsData:
+    - {x: .01666677, y: .783333659, z: 0}
+    - {x: 1.16666651, y: 1.76666737, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -.566666484, y: -.100000009, z: 0}
+    - {x: .600000024, y: -.100000009, z: 0}
+    - {x: -.566666484, y: 1.66666734, z: 0}
+    - {x: .600000024, y: 1.66666734, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .660160184, y: .00781640597}
+    - {x: .660160184, y: .144527346}
+    - {x: .867183566, y: .00781640597}
+    - {x: .867183566, y: .144527346}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5b2565e5aa1aff449abb28a9b9258f24, type: 2}
+    materialId: 0
+    sourceTextureGUID: 59c4a782c19e61349bb1dd5720a62da7
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PsoldierE01_run_011
+    boundsData:
+    - {x: .01666677, y: .733333647, z: 0}
+    - {x: 1.16666651, y: 1.66666734, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -.566666484, y: -.100000009, z: 0}
+    - {x: .600000024, y: -.100000009, z: 0}
+    - {x: -.566666484, y: 1.56666732, z: 0}
+    - {x: .600000024, y: 1.56666732, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00781640597, y: .417972654}
+    - {x: .144527346, y: .417972654}
+    - {x: .00781640597, y: .613277316}
+    - {x: .144527346, y: .613277316}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5b2565e5aa1aff449abb28a9b9258f24, type: 2}
+    materialId: 0
+    sourceTextureGUID: c32336831c6ff8845a4d7826a4b0ff8d
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PsoldierE01_run_012
+    boundsData:
+    - {x: .0333332121, y: .75000006, z: 0}
+    - {x: 1.19999933, y: 1.70000017, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -.566666484, y: -.100000009, z: 0}
+    - {x: .633332908, y: -.100000009, z: 0}
+    - {x: -.566666484, y: 1.60000014, z: 0}
+    - {x: .633332908, y: 1.60000014, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .410160154, y: .160160154}
+    - {x: .410160154, y: .300777346}
+    - {x: .609371066, y: .160160154}
+    - {x: .609371066, y: .300777346}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5b2565e5aa1aff449abb28a9b9258f24, type: 2}
+    materialId: 0
+    sourceTextureGUID: 0df6e621c80f0654e9321425dcd8934b
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PsoldierE01_run_013
+    boundsData:
+    - {x: 3.7252903e-07, y: .716666877, z: 0}
+    - {x: .933333635, y: 1.70000088, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -.46666646, y: -.133333594, z: 0}
+    - {x: .466667205, y: -.133333594, z: 0}
+    - {x: -.46666646, y: 1.56666732, z: 0}
+    - {x: .466667205, y: 1.56666732, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .882816434, y: .00781640597}
+    - {x: .992183566, y: .00781640597}
+    - {x: .882816434, y: .207027346}
+    - {x: .992183566, y: .207027346}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5b2565e5aa1aff449abb28a9b9258f24, type: 2}
+    materialId: 0
+    sourceTextureGUID: 3cc9929af3e68694aaa4a210e8bf950d
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PsoldierE01_run_014
+    boundsData:
+    - {x: 0, y: .666666865, z: 0}
+    - {x: 1.00000012, y: 1.60000086, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -.50000006, y: -.133333594, z: 0}
+    - {x: .50000006, y: -.133333594, z: 0}
+    - {x: -.50000006, y: 1.46666729, z: 0}
+    - {x: .50000006, y: 1.46666729, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .160160154, y: .578128934}
+    - {x: .160160154, y: .695308566}
+    - {x: .347652346, y: .578128934}
+    - {x: .347652346, y: .695308566}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5b2565e5aa1aff449abb28a9b9258f24, type: 2}
+    materialId: 0
+    sourceTextureGUID: 26ace539da1e51f4da91f845c3d8fd26
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PsoldierE01_run_015
+    boundsData:
+    - {x: 0, y: .683333278, z: 0}
+    - {x: 1.00000012, y: 1.63333368, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -.50000006, y: -.133333594, z: 0}
+    - {x: .50000006, y: -.133333594, z: 0}
+    - {x: -.50000006, y: 1.50000012, z: 0}
+    - {x: .50000006, y: 1.50000012, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .375003904, y: .449222654}
+    - {x: .375003904, y: .566402316}
+    - {x: .566402316, y: .449222654}
+    - {x: .566402316, y: .566402316}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5b2565e5aa1aff449abb28a9b9258f24, type: 2}
+    materialId: 0
+    sourceTextureGUID: d5b4b1d1dcf4f504ba16e1d7e87a69a3
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PsoldierE01_run_016
+    boundsData:
+    - {x: .0166667998, y: .716666877, z: 0}
+    - {x: .96666652, y: 1.70000088, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -.46666646, y: -.133333594, z: 0}
+    - {x: .50000006, y: -.133333594, z: 0}
+    - {x: -.46666646, y: 1.56666732, z: 0}
+    - {x: .50000006, y: 1.56666732, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .160160154, y: .449222654}
+    - {x: .160160154, y: .562496066}
+    - {x: .359371096, y: .449222654}
+    - {x: .359371096, y: .562496066}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5b2565e5aa1aff449abb28a9b9258f24, type: 2}
+    materialId: 0
+    sourceTextureGUID: 700bdc131a4fa144aa3681a13105cc83
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PsoldierE01_run_017
+    boundsData:
+    - {x: .0166667998, y: .666666865, z: 0}
+    - {x: .96666652, y: 1.60000086, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -.46666646, y: -.133333594, z: 0}
+    - {x: .50000006, y: -.133333594, z: 0}
+    - {x: -.46666646, y: 1.46666729, z: 0}
+    - {x: .50000006, y: 1.46666729, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .132816404, y: .710941434}
+    - {x: .132816404, y: .824214816}
+    - {x: .320308596, y: .710941434}
+    - {x: .320308596, y: .824214816}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5b2565e5aa1aff449abb28a9b9258f24, type: 2}
+    materialId: 0
+    sourceTextureGUID: 8a509d7ad4681a44ab22a6a6a194df98
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PsoldierE01_run_018
+    boundsData:
+    - {x: .0166667998, y: .683333278, z: 0}
+    - {x: .96666652, y: 1.63333368, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -.46666646, y: -.133333594, z: 0}
+    - {x: .50000006, y: -.133333594, z: 0}
+    - {x: -.46666646, y: 1.50000012, z: 0}
+    - {x: .50000006, y: 1.50000012, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .578128934, y: .675785184}
+    - {x: .691402316, y: .675785184}
+    - {x: .578128934, y: .867183566}
+    - {x: .691402316, y: .867183566}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5b2565e5aa1aff449abb28a9b9258f24, type: 2}
+    materialId: 0
+    sourceTextureGUID: e12a32ee2bb1ba74eaddcd7a61c30013
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PsoldierE01_victory_001
+    boundsData:
+    - {x: .0333332121, y: .950000107, z: 0}
+    - {x: .999999344, y: 2.10000014, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -.46666646, y: -.100000009, z: 0}
+    - {x: .533332884, y: -.100000009, z: 0}
+    - {x: -.46666646, y: 2.00000024, z: 0}
+    - {x: .533332884, y: 2.00000024, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .171878904, y: .00781640597}
+    - {x: .171878904, y: .124996096}
+    - {x: .417964846, y: .00781640597}
+    - {x: .417964846, y: .124996096}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5b2565e5aa1aff449abb28a9b9258f24, type: 2}
+    materialId: 0
+    sourceTextureGUID: a129b4a89a3a46a4e8327d29d2c030cb
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PsoldierE01_stand_001
+    boundsData:
+    - {x: 3.7252903e-07, y: .69999969, z: 0}
+    - {x: .933333635, y: 1.66666651, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -.46666646, y: -.133333594, z: 0}
+    - {x: .466667205, y: -.133333594, z: 0}
+    - {x: -.46666646, y: 1.53333294, z: 0}
+    - {x: .466667205, y: 1.53333294, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00781640597, y: .843753934}
+    - {x: .00781640597, y: .953121066}
+    - {x: .203121096, y: .843753934}
+    - {x: .203121096, y: .953121066}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5b2565e5aa1aff449abb28a9b9258f24, type: 2}
+    materialId: 0
+    sourceTextureGUID: 2be7ff70cd68da341b0dfc138fe9fedc
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PsoldierE01_stand_002
+    boundsData:
+    - {x: 3.7252903e-07, y: .716666877, z: 0}
+    - {x: .933333635, y: 1.70000088, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -.46666646, y: -.133333594, z: 0}
+    - {x: .466667205, y: -.133333594, z: 0}
+    - {x: -.46666646, y: 1.56666732, z: 0}
+    - {x: .466667205, y: 1.56666732, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00781640597, y: .628910184}
+    - {x: .117183596, y: .628910184}
+    - {x: .00781640597, y: .828121066}
+    - {x: .117183596, y: .828121066}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5b2565e5aa1aff449abb28a9b9258f24, type: 2}
+    materialId: 0
+    sourceTextureGUID: 2a36587fd01d5d04ca8c601121f307ab
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PsoldierE01_stand_004
+    boundsData:
+    - {x: 3.7252903e-07, y: .716666877, z: 0}
+    - {x: .933333635, y: 1.70000088, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -.46666646, y: -.133333594, z: 0}
+    - {x: .466667205, y: -.133333594, z: 0}
+    - {x: -.46666646, y: 1.56666732, z: 0}
+    - {x: .466667205, y: 1.56666732, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .582035184, y: .550785184}
+    - {x: .582035184, y: .660152316}
+    - {x: .781246066, y: .550785184}
+    - {x: .781246066, y: .660152316}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5b2565e5aa1aff449abb28a9b9258f24, type: 2}
+    materialId: 0
+    sourceTextureGUID: 470bd7d6697852744b6f5c8bbf07dda6
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PsoldierE01_stand_003
+    boundsData:
+    - {x: 3.7252903e-07, y: .716666877, z: 0}
+    - {x: .933333635, y: 1.70000088, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -.46666646, y: -.133333594, z: 0}
+    - {x: .466667205, y: -.133333594, z: 0}
+    - {x: -.46666646, y: 1.56666732, z: 0}
+    - {x: .466667205, y: 1.56666732, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .363285154, y: .582035184}
+    - {x: .363285154, y: .691402316}
+    - {x: .562496066, y: .582035184}
+    - {x: .562496066, y: .691402316}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5b2565e5aa1aff449abb28a9b9258f24, type: 2}
+    materialId: 0
+    sourceTextureGUID: b623793d6f2144b46ba1e2565e6aaff5
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 5b2565e5aa1aff449abb28a9b9258f24, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 7f822565282f7d44b8e78e8cb5d85a1f, type: 3}
+  pngTextures: []
+  materialPngTextureId: 00000000
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: 6c7020959b1bb9c4f814cfc1735b5690
+  spriteCollectionName: SpriteCollection_Predator_PsoldierE01
+  assetName: 
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: 15
+  buildKey: 608956500
+  dataGuid: 8ca6803c2a7093144a076699015994cd
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

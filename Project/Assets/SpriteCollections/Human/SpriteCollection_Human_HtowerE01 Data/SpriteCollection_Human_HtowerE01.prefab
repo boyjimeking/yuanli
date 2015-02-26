@@ -1,0 +1,1004 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: SpriteCollection_Human_HtowerE01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: HtowerE01_attack_001
+    boundsData:
+    - {x: -.100000024, y: 2.11666727, z: 0}
+    - {x: 3.40000033, y: 3.50000024, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -1.80000019, y: .366667211, z: 0}
+    - {x: 1.60000014, y: .366667211, z: 0}
+    - {x: -1.80000019, y: 3.86666751, z: 0}
+    - {x: 1.60000014, y: 3.86666751, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .475586921}
+    - {x: .00390820298, y: .575194359}
+    - {x: .208982423, y: .475586921}
+    - {x: .208982423, y: .575194359}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5ca2abbeaac42a84685a9919975547dc, type: 2}
+    materialId: 0
+    sourceTextureGUID: 6d41e1c4442eb7c4c8a815023fa4ae1b
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: HtowerE01_attack_002
+    boundsData:
+    - {x: .0333333015, y: 1.66666663, z: 0}
+    - {x: 4.33333397, y: 3.53333306, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -2.13333368, y: -.100000009, z: 0}
+    - {x: 2.20000029, y: -.100000009, z: 0}
+    - {x: -2.13333368, y: 3.43333316, z: 0}
+    - {x: 2.20000029, y: 3.43333316, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .308595717, y: .150391608}
+    - {x: .562498033, y: .150391608}
+    - {x: .308595717, y: .253905267}
+    - {x: .562498033, y: .253905267}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5ca2abbeaac42a84685a9919975547dc, type: 2}
+    materialId: 0
+    sourceTextureGUID: 5940fec89f82e8e439ab249940256478
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: HtowerE01_attack_003
+    boundsData:
+    - {x: .499999642, y: 1.50000012, z: 0}
+    - {x: 4.0666666, y: 2.80000043, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -1.53333378, y: .100000009, z: 0}
+    - {x: 2.53333306, y: .100000009, z: 0}
+    - {x: -1.53333378, y: 2.90000033, z: 0}
+    - {x: 2.53333306, y: 2.90000033, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .832033217, y: .246094733}
+    - {x: .832033217, y: .365233392}
+    - {x: .996091783, y: .246094733}
+    - {x: .996091783, y: .365233392}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5ca2abbeaac42a84685a9919975547dc, type: 2}
+    materialId: 0
+    sourceTextureGUID: 3b7a48df397376c42be830a4b9c15869
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: HtowerE01_attack_004
+    boundsData:
+    - {x: .166666389, y: 1.61666656, z: 0}
+    - {x: 4.33333302, y: 3.43333292, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -2.00000024, y: -.100000009, z: 0}
+    - {x: 2.33333302, y: -.100000009, z: 0}
+    - {x: -2.00000024, y: 3.33333302, z: 0}
+    - {x: 2.33333302, y: 3.33333302, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .570314467, y: .246094733}
+    - {x: .824216783, y: .246094733}
+    - {x: .570314467, y: .346678704}
+    - {x: .824216783, y: .346678704}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5ca2abbeaac42a84685a9919975547dc, type: 2}
+    materialId: 0
+    sourceTextureGUID: abf8d3a47f5f0204dac91785ed3ebcaf
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: HtowerE01_attack_005
+    boundsData:
+    - {x: .116666675, y: 1.81666684, z: 0}
+    - {x: 4.5, y: 4.50000048, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 34.1333351, y: 34.1333351, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -2.13333344, y: -.433333367, z: 0}
+    - {x: 2.36666679, y: -.433333367, z: 0}
+    - {x: -2.13333344, y: 4.06666708, z: 0}
+    - {x: 2.36666679, y: 4.06666708, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .652345717, y: .00195410149}
+    - {x: .916013658, y: .00195410149}
+    - {x: .652345717, y: .133788079}
+    - {x: .916013658, y: .133788079}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5ca2abbeaac42a84685a9919975547dc, type: 2}
+    materialId: 0
+    sourceTextureGUID: f29092a582df1a24b83c9f3aa897ae97
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: HtowerE01_base
+    boundsData:
+    - {x: .0666664243, y: .466666847, z: 0}
+    - {x: 2.53333282, y: 2.66666675, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -1.20000005, y: -.866666496, z: 0}
+    - {x: 1.3333329, y: -.866666496, z: 0}
+    - {x: -1.20000005, y: 1.80000019, z: 0}
+    - {x: 1.3333329, y: 1.80000019, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .675783217, y: .626954079}
+    - {x: .675783217, y: .701170921}
+    - {x: .832029283, y: .626954079}
+    - {x: .832029283, y: .701170921}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5ca2abbeaac42a84685a9919975547dc, type: 2}
+    materialId: 0
+    sourceTextureGUID: 10e5762cfd6097e47aaf0b35c3274ed2
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: HtowerE01_stand_001
+    boundsData:
+    - {x: -.100000024, y: 2.11666727, z: 0}
+    - {x: 3.40000033, y: 3.50000024, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -1.80000019, y: .366667211, z: 0}
+    - {x: 1.60000014, y: .366667211, z: 0}
+    - {x: -1.80000019, y: 3.86666751, z: 0}
+    - {x: 1.60000014, y: 3.86666751, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .216798827, y: .567383766}
+    - {x: .216798827, y: .666991234}
+    - {x: .421873033, y: .567383766}
+    - {x: .421873033, y: .666991234}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5ca2abbeaac42a84685a9919975547dc, type: 2}
+    materialId: 0
+    sourceTextureGUID: 082ca397c3923a44da320c04c5d332c5
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: HtowerE01_stand_002
+    boundsData:
+    - {x: -.149999619, y: 1.90000021, z: 0}
+    - {x: 3.83333397, y: 3.73333478, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -2.0666666, y: .0333328284, z: 0}
+    - {x: 1.76666737, y: .0333328284, z: 0}
+    - {x: -2.0666666, y: 3.7666676, z: 0}
+    - {x: 1.76666737, y: 3.7666676, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .542970717, y: .455079108}
+    - {x: .767576158, y: .455079108}
+    - {x: .542970717, y: .564452171}
+    - {x: .767576158, y: .564452171}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5ca2abbeaac42a84685a9919975547dc, type: 2}
+    materialId: 0
+    sourceTextureGUID: 282ce0e6c2956c64d93908dafc851ae5
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: HtowerE01_stand_003
+    boundsData:
+    - {x: .0666666031, y: 2.23333359, z: 0}
+    - {x: 5.73333359, y: 4.73333359, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 34.1333351, y: 34.1333351, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -2.80000019, y: -.13333334, z: 0}
+    - {x: 2.9333334, y: -.13333334, z: 0}
+    - {x: -2.80000019, y: 4.60000038, z: 0}
+    - {x: 2.9333334, y: 4.60000038, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .00195410149}
+    - {x: .339841783, y: .00195410149}
+    - {x: .00390820298, y: .140624017}
+    - {x: .339841783, y: .140624017}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5ca2abbeaac42a84685a9919975547dc, type: 2}
+    materialId: 0
+    sourceTextureGUID: cdf4626edfb5bd24cbeb70f7aa78d54c
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: HtowerE01_stand_004
+    boundsData:
+    - {x: .283333242, y: 1.45000017, z: 0}
+    - {x: 4.43333387, y: 3.10000014, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -1.93333375, y: -.100000009, z: 0}
+    - {x: 2.50000024, y: -.100000009, z: 0}
+    - {x: -1.93333375, y: 3.00000024, z: 0}
+    - {x: 2.50000024, y: 3.00000024, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .380860358}
+    - {x: .263669908, y: .380860358}
+    - {x: .00390820298, y: .471678704}
+    - {x: .263669908, y: .471678704}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5ca2abbeaac42a84685a9919975547dc, type: 2}
+    materialId: 0
+    sourceTextureGUID: 8825ca98e3d79014c94202f125049231
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: HtowerE01_stand_005
+    boundsData:
+    - {x: .499999642, y: 1.50000012, z: 0}
+    - {x: 4.0666666, y: 2.80000043, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -1.53333378, y: .100000009, z: 0}
+    - {x: 2.53333306, y: .100000009, z: 0}
+    - {x: -1.53333378, y: 2.90000033, z: 0}
+    - {x: 2.53333306, y: 2.90000033, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .830080092, y: .369141608}
+    - {x: .830080092, y: .488280267}
+    - {x: .994138658, y: .369141608}
+    - {x: .994138658, y: .488280267}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5ca2abbeaac42a84685a9919975547dc, type: 2}
+    materialId: 0
+    sourceTextureGUID: 0b48fc98fa2ce794986df15108d97453
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: HtowerE01_stand_006
+    boundsData:
+    - {x: .366666794, y: 1.56666696, z: 0}
+    - {x: 4.4666667, y: 3.26666665, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -1.86666656, y: -.0666664168, z: 0}
+    - {x: 2.60000014, y: -.0666664168, z: 0}
+    - {x: -1.86666656, y: 3.20000029, z: 0}
+    - {x: 2.60000014, y: 3.20000029, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .281250983}
+    - {x: .265623033, y: .281250983}
+    - {x: .00390820298, y: .376952142}
+    - {x: .265623033, y: .376952142}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5ca2abbeaac42a84685a9919975547dc, type: 2}
+    materialId: 0
+    sourceTextureGUID: 72f57119b4f489a45b53c0be8f40ef97
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: HtowerE01_stand_007
+    boundsData:
+    - {x: .166666389, y: 1.61666656, z: 0}
+    - {x: 4.33333302, y: 3.43333292, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -2.00000024, y: -.100000009, z: 0}
+    - {x: 2.33333302, y: -.100000009, z: 0}
+    - {x: -2.00000024, y: 3.33333302, z: 0}
+    - {x: 2.33333302, y: 3.33333302, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .308595717, y: .257813483}
+    - {x: .562498033, y: .257813483}
+    - {x: .308595717, y: .358397454}
+    - {x: .562498033, y: .358397454}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5ca2abbeaac42a84685a9919975547dc, type: 2}
+    materialId: 0
+    sourceTextureGUID: 7b32b933b43f4ab42ae7be9a4bf71fc8
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: HtowerE01_stand_008
+    boundsData:
+    - {x: .0333333015, y: 2, z: 0}
+    - {x: 5.06666708, y: 4.53333378, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 34.1333351, y: 34.1333351, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -2.50000024, y: -.266666681, z: 0}
+    - {x: 2.56666684, y: -.266666681, z: 0}
+    - {x: -2.50000024, y: 4.26666689, z: 0}
+    - {x: 2.56666684, y: 4.26666689, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .144532233}
+    - {x: .300779283, y: .144532233}
+    - {x: .00390820298, y: .277342767}
+    - {x: .300779283, y: .277342767}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5ca2abbeaac42a84685a9919975547dc, type: 2}
+    materialId: 0
+    sourceTextureGUID: ead11e21ca652cc4a8b969a39832a0ba
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: HtowerE01_stand_009
+    boundsData:
+    - {x: .0833332539, y: 1.36666703, z: 0}
+    - {x: 3.43333387, y: 3.40000105, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -1.63333368, y: -.333333611, z: 0}
+    - {x: 1.80000019, y: -.333333611, z: 0}
+    - {x: -1.63333368, y: 3.06666756, z: 0}
+    - {x: 1.80000019, y: 3.06666756, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .579102516}
+    - {x: .205076173, y: .579102516}
+    - {x: .00390820298, y: .678709984}
+    - {x: .205076173, y: .678709984}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5ca2abbeaac42a84685a9919975547dc, type: 2}
+    materialId: 0
+    sourceTextureGUID: 53cb0dceedf128d43b4fe38ad66ddc02
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: HtowerE01_stand_010
+    boundsData:
+    - {x: .150000393, y: 1.46666694, z: 0}
+    - {x: 3.83333397, y: 3.4666667, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -1.76666653, y: -.266666442, z: 0}
+    - {x: 2.06666732, y: -.266666442, z: 0}
+    - {x: -1.76666653, y: 3.20000029, z: 0}
+    - {x: 2.06666732, y: 3.20000029, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .271486342, y: .461915046}
+    - {x: .496091783, y: .461915046}
+    - {x: .271486342, y: .563475609}
+    - {x: .496091783, y: .563475609}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5ca2abbeaac42a84685a9919975547dc, type: 2}
+    materialId: 0
+    sourceTextureGUID: 94a240019bfebbb41886dca67763d42b
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: HtowerE01_stand_011
+    boundsData:
+    - {x: -.0500000715, y: 1.51666653, z: 0}
+    - {x: 4.30000019, y: 3.43333316, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -2.20000029, y: -.200000018, z: 0}
+    - {x: 2.10000014, y: -.200000018, z: 0}
+    - {x: -2.20000029, y: 3.23333311, z: 0}
+    - {x: 2.10000014, y: 3.23333311, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .570314467, y: .350586921}
+    - {x: .822263658, y: .350586921}
+    - {x: .570314467, y: .451170892}
+    - {x: .822263658, y: .451170892}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5ca2abbeaac42a84685a9919975547dc, type: 2}
+    materialId: 0
+    sourceTextureGUID: 3cf2bdc7071f5f844be8d70294cdebfe
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: HtowerE01_stand_012
+    boundsData:
+    - {x: -.30000037, y: 1.43333375, z: 0}
+    - {x: 4.4666667, y: 3.2666676, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -2.53333378, y: -.200000018, z: 0}
+    - {x: 1.93333304, y: -.200000018, z: 0}
+    - {x: -2.53333378, y: 3.06666756, z: 0}
+    - {x: 1.93333304, y: 3.06666756, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .273439467, y: .362305671}
+    - {x: .535154283, y: .362305671}
+    - {x: .273439467, y: .458006829}
+    - {x: .535154283, y: .458006829}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5ca2abbeaac42a84685a9919975547dc, type: 2}
+    materialId: 0
+    sourceTextureGUID: ca378593f9c7f2d449a31f3d5d962a18
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: HtowerE01_stand_013
+    boundsData:
+    - {x: -.500000417, y: 1.38333368, z: 0}
+    - {x: 4.0666666, y: 2.76666737, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -2.53333378, y: 0, z: 0}
+    - {x: 1.53333294, y: 0, z: 0}
+    - {x: -2.53333378, y: 2.76666737, z: 0}
+    - {x: 1.53333294, y: 2.76666737, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .429689467, y: .568360329}
+    - {x: .667966783, y: .568360329}
+    - {x: .429689467, y: .649413109}
+    - {x: .667966783, y: .649413109}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5ca2abbeaac42a84685a9919975547dc, type: 2}
+    materialId: 0
+    sourceTextureGUID: 5af09a3f59b031c41b6ca249c93315c2
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: HtowerE01_stand_014
+    boundsData:
+    - {x: -.366666377, y: 1.35000014, z: 0}
+    - {x: 4.46666765, y: 3.10000038, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -2.60000014, y: -.200000018, z: 0}
+    - {x: 1.86666739, y: -.200000018, z: 0}
+    - {x: -2.60000014, y: 2.90000033, z: 0}
+    - {x: 1.86666739, y: 2.90000033, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .775392592, y: .492188483}
+    - {x: .775392592, y: .623045921}
+    - {x: .957029283, y: .492188483}
+    - {x: .957029283, y: .623045921}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5ca2abbeaac42a84685a9919975547dc, type: 2}
+    materialId: 0
+    sourceTextureGUID: 48da419ce72e4834a88489f03852293b
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: HtowerE01_stand_015
+    boundsData:
+    - {x: -.183333218, y: 1.58333373, z: 0}
+    - {x: 4.30000114, y: 3.56666756, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -2.33333373, y: -.200000018, z: 0}
+    - {x: 1.96666729, y: -.200000018, z: 0}
+    - {x: -2.33333373, y: 3.36666751, z: 0}
+    - {x: 1.96666729, y: 3.36666751, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .652345717, y: .137696296}
+    - {x: .904294908, y: .137696296}
+    - {x: .652345717, y: .242186517}
+    - {x: .904294908, y: .242186517}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5ca2abbeaac42a84685a9919975547dc, type: 2}
+    materialId: 0
+    sourceTextureGUID: 81ac9b24a30afca469ed35f12d2e538d
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: HtowerE01_stand_016
+    boundsData:
+    - {x: -.0333333015, y: 2.4666667, z: 0}
+    - {x: 5.06666708, y: 4.9333334, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 34.1333351, y: 34.1333351, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -2.56666684, y: 0, z: 0}
+    - {x: 2.50000024, y: 0, z: 0}
+    - {x: -2.56666684, y: 4.9333334, z: 0}
+    - {x: 2.50000024, y: 4.9333334, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .347658217, y: .00195410149}
+    - {x: .644529283, y: .00195410149}
+    - {x: .347658217, y: .146483392}
+    - {x: .644529283, y: .146483392}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5ca2abbeaac42a84685a9919975547dc, type: 2}
+    materialId: 0
+    sourceTextureGUID: e98eb3bae15c3494fb7d778b447a705b
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 5ca2abbeaac42a84685a9919975547dc, type: 2}
+  textures:
+  - {fileID: 2800000, guid: d7830444754896648aa10bd3c18cbe76, type: 3}
+  pngTextures: []
+  materialPngTextureId: 00000000
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: 20a382d9b0caaf345914a7a6dd2285c2
+  spriteCollectionName: SpriteCollection_Human_HtowerE01
+  assetName: 
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: 15
+  buildKey: 1157868923
+  dataGuid: db86283bdf6cea245ae5a2c8ee127b35
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

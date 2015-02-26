@@ -1,0 +1,6 @@
+option java_package = "com.pureland.common.protocal";
+option java_outer_classname = "ArmyUpgradeReqProtocal";
+
+message ArmyUpgradeReq {
+	required int32 cid 				=1;
+}

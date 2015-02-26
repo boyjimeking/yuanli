@@ -1,0 +1,20 @@
+import "ResourceVO.proto";
+import "ArmyExpVO.proto";
+
+option java_package = "com.pureland.common.protocal.vo";
+option java_outer_classname = "PlayerVOProtocal";
+
+message PlayerVO {
+	required int64 userId 				=1;
+	optional int32 raceType				=2; //种族,1人类,2铁血,3虫族
+	optional int32 level 				=3; //等级
+	optional string name				=4; //玩家名字
+	optional int32 experience 			=5; //经验
+	optional int32 crown				=6; //皇冠积分
+	repeated ResourceVO resources 		=7;
+	repeated ArmyExpVO armyShop			=8;	 //部队商店信息,部队id列表,隐含等级信息
+	repeated int32 skillShop			=9; //技能商店信息,技能id列表,隐含等级信息
+	optional int32 baseId				=10; //大本营的客户端id
+	optional int32 maxWorker			=11; //最大工人数量
+	optional int32 freeWorker			=12;//当前空闲工人数量
+}

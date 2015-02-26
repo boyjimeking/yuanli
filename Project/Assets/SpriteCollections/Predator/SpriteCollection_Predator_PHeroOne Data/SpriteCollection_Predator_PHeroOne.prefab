@@ -1,0 +1,2231 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: SpriteCollection_Predator_PHeroOne
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: PHeroOne_attack_001
+    boundsData:
+    - {x: .116666794, y: 1.51666653, z: 0}
+    - {x: 2.700001, y: 3.83333325, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -1.23333371, y: -.400000036, z: 0}
+    - {x: 1.46666729, y: -.400000036, z: 0}
+    - {x: -1.23333371, y: 3.43333316, z: 0}
+    - {x: 1.46666729, y: 3.43333316, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .158204108, y: .642579079}
+    - {x: .158204108, y: .721678734}
+    - {x: .270506829, y: .642579079}
+    - {x: .270506829, y: .721678734}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 6594747244833b7419a84e656adae284
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PHeroOne_attack_002
+    boundsData:
+    - {x: -.683333278, y: 1.61666656, z: 0}
+    - {x: 4.10000134, y: 4.0333333, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -2.73333383, y: -.400000036, z: 0}
+    - {x: 1.36666727, y: -.400000036, z: 0}
+    - {x: -2.73333383, y: 3.63333321, z: 0}
+    - {x: 1.36666727, y: 3.63333321, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .867188454}
+    - {x: .00195410149, y: .987303734}
+    - {x: .120116211, y: .867188454}
+    - {x: .120116211, y: .987303734}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+    materialId: 0
+    sourceTextureGUID: e43680eb2455c8845a3fabe4c955a152
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PHeroOne_attack_003
+    boundsData:
+    - {x: .166666865, y: 2.13333368, z: 0}
+    - {x: 5.40000153, y: 5.06666756, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -2.53333378, y: -.400000036, z: 0}
+    - {x: 2.86666751, y: -.400000036, z: 0}
+    - {x: -2.53333378, y: 4.66666746, z: 0}
+    - {x: 2.86666751, y: 4.66666746, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .163086921, y: .00195410149}
+    - {x: .163086921, y: .160155267}
+    - {x: .311522454, y: .00195410149}
+    - {x: .311522454, y: .160155267}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 93772d1bf3c1bdf4a80b18e4bc0cf565
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints:
+    - name: FirePoint
+      position: {x: 2.59999943, y: 2.36666584, z: 0}
+      angle: 0
+  - name: PHeroOne_attack_004
+    boundsData:
+    - {x: .316666484, y: 2.20000005, z: 0}
+    - {x: 5.23333359, y: 5.20000029, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -2.30000019, y: -.400000036, z: 0}
+    - {x: 2.93333316, y: -.400000036, z: 0}
+    - {x: -2.30000019, y: 4.80000019, z: 0}
+    - {x: 2.93333316, y: 4.80000019, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .572266579}
+    - {x: .00195410149, y: .725584984}
+    - {x: .154295892, y: .572266579}
+    - {x: .154295892, y: .725584984}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 80ae62d65377a2e4880f416b96af1962
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PHeroOne_attack_005
+    boundsData:
+    - {x: .44999969, y: 2.23333383, z: 0}
+    - {x: 5.16666698, y: 5.26666784, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -2.13333368, y: -.400000036, z: 0}
+    - {x: 3.03333306, y: -.400000036, z: 0}
+    - {x: -2.13333368, y: 4.86666775, z: 0}
+    - {x: 3.03333306, y: 4.86666775, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .155274421, y: .366211921}
+    - {x: .306639642, y: .366211921}
+    - {x: .155274421, y: .520506859}
+    - {x: .306639642, y: .520506859}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 4d6811cb78544834788e488bfdb24d0b
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PHeroOne_attack_006
+    boundsData:
+    - {x: .850000024, y: 1.2833333, z: 0}
+    - {x: 3.90000033, y: 3.43333387, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -1.10000014, y: -.433333635, z: 0}
+    - {x: 2.80000019, y: -.433333635, z: 0}
+    - {x: -1.10000014, y: 3.00000024, z: 0}
+    - {x: 2.80000019, y: 3.00000024, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .158204108, y: .524415016}
+    - {x: .158204108, y: .638670921}
+    - {x: .258788079, y: .524415016}
+    - {x: .258788079, y: .638670921}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+    materialId: 0
+    sourceTextureGUID: cf72e9da6fee6214181265e18c12d4ec
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PHeroOne_attack_007
+    boundsData:
+    - {x: -1.16666698, y: 1.73333335, z: 0}
+    - {x: 4.73333406, y: 4.33333397, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -3.53333402, y: -.433333635, z: 0}
+    - {x: 1.20000005, y: -.433333635, z: 0}
+    - {x: -3.53333402, y: 3.90000033, z: 0}
+    - {x: 1.20000005, y: 3.90000033, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .315430671, y: .00195410149}
+    - {x: .315430671, y: .140624017}
+    - {x: .442381829, y: .00195410149}
+    - {x: .442381829, y: .140624017}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+    materialId: 0
+    sourceTextureGUID: f9fed3907bfe1c140b2d0f40edd8a4ce
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PHeroOne_attack_008
+    boundsData:
+    - {x: .399999976, y: 1.89999974, z: 0}
+    - {x: 7.00000095, y: 4.66666698, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -3.10000038, y: -.433333635, z: 0}
+    - {x: 3.90000033, y: -.433333635, z: 0}
+    - {x: -3.10000038, y: 4.23333311, z: 0}
+    - {x: 3.90000033, y: 4.23333311, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .187500983}
+    - {x: .00195410149, y: .392577142}
+    - {x: .138670892, y: .187500983}
+    - {x: .138670892, y: .392577142}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 536bffbe4eeb0c24fbd914e5033a8081
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints:
+    - name: FirePoint
+      position: {x: 3.03333282, y: .733332634, z: 0}
+      angle: 0
+  - name: PHeroOne_attack_009
+    boundsData:
+    - {x: .94999969, y: 1.98333347, z: 0}
+    - {x: 5.96666718, y: 4.83333397, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -2.03333378, y: -.433333635, z: 0}
+    - {x: 3.93333316, y: -.433333635, z: 0}
+    - {x: -2.03333378, y: 4.40000057, z: 0}
+    - {x: 3.93333316, y: 4.40000057, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .142579108, y: .187500983}
+    - {x: .142579108, y: .362303704}
+    - {x: .284178704, y: .187500983}
+    - {x: .284178704, y: .362303704}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 8035e22849aa2334291760e912d5c3f9
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PHeroOne_attack_010
+    boundsData:
+    - {x: 1.63333333, y: 1.18333328, z: 0}
+    - {x: 4.99999952, y: 3.29999948, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -.866666496, y: -.46666646, z: 0}
+    - {x: 4.13333321, y: -.46666646, z: 0}
+    - {x: -.866666496, y: 2.83333302, z: 0}
+    - {x: 4.13333321, y: 2.83333302, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .115235351, y: .729493141}
+    - {x: .261717767, y: .729493141}
+    - {x: .115235351, y: .826170921}
+    - {x: .261717767, y: .826170921}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+    materialId: 0
+    sourceTextureGUID: d0c854765dc06304789f2c1600864901
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PHeroOne_attack_011
+    boundsData:
+    - {x: .766666532, y: 1.21666694, z: 0}
+    - {x: 3.93333316, y: 3.10000086, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -1.20000005, y: -.333333611, z: 0}
+    - {x: 2.73333311, y: -.333333611, z: 0}
+    - {x: -1.20000005, y: 2.76666737, z: 0}
+    - {x: 2.73333311, y: 2.76666737, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .483399421, y: .437500983}
+    - {x: .483399421, y: .552733421}
+    - {x: .574217796, y: .437500983}
+    - {x: .574217796, y: .552733421}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+    materialId: 0
+    sourceTextureGUID: a3db321739911b74792e11fabdd7bf18
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PHeroOne_attack_012
+    boundsData:
+    - {x: -.566666901, y: 1.94999981, z: 0}
+    - {x: 3.73333406, y: 4.5666666, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -2.43333387, y: -.333333611, z: 0}
+    - {x: 1.30000007, y: -.333333611, z: 0}
+    - {x: -2.43333387, y: 4.23333311, z: 0}
+    - {x: 1.30000007, y: 4.23333311, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .729493141}
+    - {x: .111327149, y: .729493141}
+    - {x: .00195410149, y: .863280296}
+    - {x: .111327149, y: .863280296}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 8f078b238b87bc243a2338422bc00050
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PHeroOne_attack_013
+    boundsData:
+    - {x: .150000095, y: 1.56666696, z: 0}
+    - {x: 5.10000038, y: 5.86666679, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -2.4000001, y: -1.36666656, z: 0}
+    - {x: 2.70000029, y: -1.36666656, z: 0}
+    - {x: -2.4000001, y: 4.50000048, z: 0}
+    - {x: 2.70000029, y: 4.50000048, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .396485358}
+    - {x: .151366204, y: .396485358}
+    - {x: .00195410149, y: .568358421}
+    - {x: .151366204, y: .568358421}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 4e94dda9fc0d04240979519ba47709b2
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints:
+    - name: FirePoint
+      position: {x: 1.96666622, y: -.933333397, z: 0}
+      angle: 0
+  - name: PHeroOne_attack_014
+    boundsData:
+    - {x: .183333635, y: 1.4333334, z: 0}
+    - {x: 5.36666775, y: 6.19999981, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -2.50000024, y: -1.66666651, z: 0}
+    - {x: 2.86666751, y: -1.66666651, z: 0}
+    - {x: -2.50000024, y: 4.5333333, z: 0}
+    - {x: 2.86666751, y: 4.5333333, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .00195410149}
+    - {x: .159178704, y: .00195410149}
+    - {x: .00195410149, y: .183592767}
+    - {x: .159178704, y: .183592767}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+    materialId: 0
+    sourceTextureGUID: bb39c47122395e34f88912284e623d3e
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PHeroOne_attack_015
+    boundsData:
+    - {x: .98333329, y: 1.45000052, z: 0}
+    - {x: 4.43333387, y: 6.03333426, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -1.23333371, y: -1.5666666, z: 0}
+    - {x: 3.20000029, y: -1.5666666, z: 0}
+    - {x: -1.23333371, y: 4.46666765, z: 0}
+    - {x: 3.20000029, y: 4.46666765, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .288086921, y: .164063483}
+    - {x: .417967767, y: .164063483}
+    - {x: .288086921, y: .340819329}
+    - {x: .417967767, y: .340819329}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 139f3962374c69248b69e5c00bbbd4ff
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PHeroOne_run_001
+    boundsData:
+    - {x: -.400000393, y: 1.36666656, z: 0}
+    - {x: 3.0666666, y: 3.33333302, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -1.93333375, y: -.300000012, z: 0}
+    - {x: 1.13333297, y: -.300000012, z: 0}
+    - {x: -1.93333375, y: 3.03333306, z: 0}
+    - {x: 1.13333297, y: 3.03333306, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .606446266, y: .538086891}
+    - {x: .696288109, y: .538086891}
+    - {x: .606446266, y: .635741234}
+    - {x: .696288109, y: .635741234}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+    materialId: 0
+    sourceTextureGUID: d1c9823b78becf242a05d72dbb97ed0c
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PHeroOne_run_002
+    boundsData:
+    - {x: -.25000006, y: 1.40000021, z: 0}
+    - {x: 2.9000001, y: 3.00000024, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -1.70000017, y: -.100000009, z: 0}
+    - {x: 1.20000005, y: -.100000009, z: 0}
+    - {x: -1.70000017, y: 2.90000033, z: 0}
+    - {x: 1.20000005, y: 2.90000033, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .626954079, y: .00195410149}
+    - {x: .711913109, y: .00195410149}
+    - {x: .626954079, y: .089842774}
+    - {x: .711913109, y: .089842774}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 0d1b4a98049eeeb4d8ea88a38c7cc6e2
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PHeroOne_run_003
+    boundsData:
+    - {x: -.216666818, y: 1.36666703, z: 0}
+    - {x: 2.43333387, y: 3.40000105, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -1.43333375, y: -.333333611, z: 0}
+    - {x: 1.00000012, y: -.333333611, z: 0}
+    - {x: -1.43333375, y: 3.06666756, z: 0}
+    - {x: 1.00000012, y: 3.06666756, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .445313483, y: .926758766}
+    - {x: .445313483, y: .998045921}
+    - {x: .544920921, y: .926758766}
+    - {x: .544920921, y: .998045921}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+    materialId: 0
+    sourceTextureGUID: bbde87541cdd084428dfcabd05e30d77
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PHeroOne_run_004
+    boundsData:
+    - {x: .0333331823, y: 1.63333333, z: 0}
+    - {x: 2.99999952, y: 3.79999948, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -1.46666658, y: -.266666442, z: 0}
+    - {x: 1.53333294, y: -.266666442, z: 0}
+    - {x: -1.46666658, y: 3.53333306, z: 0}
+    - {x: 1.53333294, y: 3.53333306, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .659180641, y: .883790016}
+    - {x: .747069359, y: .883790016}
+    - {x: .659180641, y: .995116234}
+    - {x: .747069359, y: .995116234}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+    materialId: 0
+    sourceTextureGUID: ab7fc787420394c4b85c7bb99960c8e9
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PHeroOne_run_005
+    boundsData:
+    - {x: .100000024, y: 1.73333335, z: 0}
+    - {x: 3.00000024, y: 3.79999971, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -1.4000001, y: -.166666433, z: 0}
+    - {x: 1.60000014, y: -.166666433, z: 0}
+    - {x: -1.4000001, y: 3.63333321, z: 0}
+    - {x: 1.60000014, y: 3.63333321, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .421875983, y: .144532233}
+    - {x: .509764671, y: .144532233}
+    - {x: .421875983, y: .255858392}
+    - {x: .509764671, y: .255858392}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 227954902084a0a438776df3223048dc
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PHeroOne_run_006
+    boundsData:
+    - {x: -.150000393, y: 1.58333337, z: 0}
+    - {x: 3.16666651, y: 3.63333392, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -1.73333371, y: -.233333603, z: 0}
+    - {x: 1.43333292, y: -.233333603, z: 0}
+    - {x: -1.73333371, y: 3.40000033, z: 0}
+    - {x: 1.43333292, y: 3.40000033, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .548829079, y: .901368141}
+    - {x: .548829079, y: .994139671}
+    - {x: .655272484, y: .901368141}
+    - {x: .655272484, y: .994139671}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 4377bfb683582a74baa061763d424ac2
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PHeroOne_run_007
+    boundsData:
+    - {x: -.200000048, y: 1.0333333, z: 0}
+    - {x: 3.20000029, y: 3.13333368, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -1.80000019, y: -.533333659, z: 0}
+    - {x: 1.4000001, y: -.533333659, z: 0}
+    - {x: -1.80000019, y: 2.60000014, z: 0}
+    - {x: 1.4000001, y: 2.60000014, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .686524391, y: .639649391}
+    - {x: .686524391, y: .733397484}
+    - {x: .778319359, y: .639649391}
+    - {x: .778319359, y: .733397484}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 055f8c68b0a5b324ebb97dc8bfba92ef
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PHeroOne_run_008
+    boundsData:
+    - {x: -.266666472, y: 1.29999971, z: 0}
+    - {x: 3.06666756, y: 3.26666689, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -1.80000019, y: -.333333611, z: 0}
+    - {x: 1.26666725, y: -.333333611, z: 0}
+    - {x: -1.80000019, y: 2.93333316, z: 0}
+    - {x: 1.26666725, y: 2.93333316, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .734375954, y: .737305641}
+    - {x: .824217796, y: .737305641}
+    - {x: .734375954, y: .833006859}
+    - {x: .824217796, y: .833006859}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 42733fd92b545884c8fa4ea15d407b47
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PHeroOne_run_009
+    boundsData:
+    - {x: -.300000072, y: 1.55000019, z: 0}
+    - {x: 3.00000024, y: 3.10000038, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -1.80000019, y: 0, z: 0}
+    - {x: 1.20000005, y: 0, z: 0}
+    - {x: -1.80000019, y: 3.10000038, z: 0}
+    - {x: 1.20000005, y: 3.10000038, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .535157204, y: .00195410149}
+    - {x: .623045921, y: .00195410149}
+    - {x: .535157204, y: .0927724615}
+    - {x: .623045921, y: .0927724615}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 110b3e7ce6d43c44990fe7296aad55ad
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PHeroOne_run_010
+    boundsData:
+    - {x: -.0166664124, y: 1.43333375, z: 0}
+    - {x: 2.96666741, y: 3.06666732, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -1.50000012, y: -.100000009, z: 0}
+    - {x: 1.46666729, y: -.100000009, z: 0}
+    - {x: -1.50000012, y: 2.96666741, z: 0}
+    - {x: 1.46666729, y: 2.96666741, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .605469704, y: .0966806635}
+    - {x: .692381859, y: .0966806635}
+    - {x: .605469704, y: .186522454}
+    - {x: .692381859, y: .186522454}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 179e64de041e7764ba8d87139c90ceb5
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PHeroOne_run_011
+    boundsData:
+    - {x: .516666472, y: 1.21666658, z: 0}
+    - {x: 4.0333333, y: 3.03333306, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -1.50000012, y: -.300000012, z: 0}
+    - {x: 2.53333306, y: -.300000012, z: 0}
+    - {x: -1.50000012, y: 2.73333311, z: 0}
+    - {x: 2.53333306, y: 2.73333311, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .416016608, y: .344727546}
+    - {x: .534178734, y: .344727546}
+    - {x: .416016608, y: .433592767}
+    - {x: .534178734, y: .433592767}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 4c394cacb488e2b40833e331965f0353
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PHeroOne_run_012
+    boundsData:
+    - {x: .550000072, y: 1.38333333, z: 0}
+    - {x: 3.90000033, y: 2.89999938, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -1.4000001, y: -.0666664168, z: 0}
+    - {x: 2.50000024, y: -.0666664168, z: 0}
+    - {x: -1.4000001, y: 2.83333302, z: 0}
+    - {x: 2.50000024, y: 2.83333302, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .446290046, y: .00195410149}
+    - {x: .446290046, y: .116209961}
+    - {x: .531249046, y: .00195410149}
+    - {x: .531249046, y: .116209961}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 58f6ba3896538e74dbb8841e9fcaa270
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PHeroOne_run_013
+    boundsData:
+    - {x: .483333647, y: 1.46666658, z: 0}
+    - {x: 3.96666765, y: 2.93333316, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -1.50000012, y: 0, z: 0}
+    - {x: 2.46666741, y: 0, z: 0}
+    - {x: -1.50000012, y: 2.93333316, z: 0}
+    - {x: 2.46666741, y: 2.93333316, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .546875954, y: .781250954}
+    - {x: .546875954, y: .897459984}
+    - {x: .632811546, y: .781250954}
+    - {x: .632811546, y: .897459984}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 923c0bb06e691c348b8fdba4d84d738a
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PHeroOne_run_014
+    boundsData:
+    - {x: .46666646, y: 1.23333335, z: 0}
+    - {x: 4.13333321, y: 3.13333368, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -1.60000014, y: -.333333611, z: 0}
+    - {x: 2.53333306, y: -.333333611, z: 0}
+    - {x: -1.60000014, y: 2.80000019, z: 0}
+    - {x: 2.53333306, y: 2.80000019, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .274415046, y: .621094704}
+    - {x: .395506829, y: .621094704}
+    - {x: .274415046, y: .712889671}
+    - {x: .395506829, y: .712889671}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 9b34ab1bec1071446b387293c9cdb60d
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PHeroOne_run_015
+    boundsData:
+    - {x: .100000381, y: 1.20000017, z: 0}
+    - {x: 3.73333383, y: 3.00000024, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -1.76666653, y: -.300000012, z: 0}
+    - {x: 1.96666729, y: -.300000012, z: 0}
+    - {x: -1.76666653, y: 2.70000029, z: 0}
+    - {x: 1.96666729, y: 2.70000029, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .513672829, y: .120118164}
+    - {x: .513672829, y: .229491204}
+    - {x: .601561546, y: .120118164}
+    - {x: .601561546, y: .229491204}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 60ba587ec661d254092b91c293c66e0e
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PHeroOne_run_016
+    boundsData:
+    - {x: -.300000072, y: 1.55000055, z: 0}
+    - {x: 3.00000024, y: 3.23333383, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -1.80000019, y: -.0666664168, z: 0}
+    - {x: 1.20000005, y: -.0666664168, z: 0}
+    - {x: -1.80000019, y: 3.16666746, z: 0}
+    - {x: 1.20000005, y: 3.16666746, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .750977516, y: .836915016}
+    - {x: .838866234, y: .836915016}
+    - {x: .750977516, y: .931639671}
+    - {x: .838866234, y: .931639671}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+    materialId: 0
+    sourceTextureGUID: f8dd942466eef6d4db17f53526c415e9
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PHeroOne_run_017
+    boundsData:
+    - {x: .0333332419, y: 1.71666646, z: 0}
+    - {x: 3.93333387, y: 3.16666746, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -1.93333375, y: .133332834, z: 0}
+    - {x: 2.00000024, y: .133332834, z: 0}
+    - {x: -1.93333375, y: 3.30000019, z: 0}
+    - {x: 2.00000024, y: 3.30000019, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .382813483, y: .716797829}
+    - {x: .498045892, y: .716797829}
+    - {x: .382813483, y: .809569359}
+    - {x: .498045892, y: .809569359}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 23e837bba9a6d0447bdc6afc13abb265
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PHeroOne_run_018
+    boundsData:
+    - {x: .466666818, y: 1.5333333, z: 0}
+    - {x: 4.0666666, y: 3.59999943, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -1.5666666, y: -.266666442, z: 0}
+    - {x: 2.50000024, y: -.266666442, z: 0}
+    - {x: -1.5666666, y: 3.33333302, z: 0}
+    - {x: 2.50000024, y: 3.33333302, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .124024414, y: .830079079}
+    - {x: .124024414, y: .949217796}
+    - {x: .229491204, y: .830079079}
+    - {x: .229491204, y: .949217796}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 0734a48b6933e2c41a5ae6d5fb4cc616
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PHeroOne_sleep_001
+    boundsData:
+    - {x: .200000405, y: 2.38333368, z: 0}
+    - {x: 3.33333397, y: 3.16666746, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -1.46666658, y: .800000072, z: 0}
+    - {x: 1.86666739, y: .800000072, z: 0}
+    - {x: -1.46666658, y: 3.96666741, z: 0}
+    - {x: 1.86666739, y: 3.96666741, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .578125954, y: .436524421}
+    - {x: .578125954, y: .534178734}
+    - {x: .670897484, y: .436524421}
+    - {x: .670897484, y: .534178734}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 848e862c79d042d4ca17421dda13f9ce
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PHeroOne_sleep_002
+    boundsData:
+    - {x: .0833336115, y: 2.40000033, z: 0}
+    - {x: 3.56666756, y: 3.20000029, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -1.70000017, y: .800000072, z: 0}
+    - {x: 1.86666739, y: .800000072, z: 0}
+    - {x: -1.70000017, y: 4.00000048, z: 0}
+    - {x: 1.86666739, y: 4.00000048, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .636719704, y: .775391579}
+    - {x: .636719704, y: .879881859}
+    - {x: .730467796, y: .775391579}
+    - {x: .730467796, y: .879881859}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 19b4960bcb99f044ba5e3dfba1fc3de2
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PHeroOne_sleep_003
+    boundsData:
+    - {x: .133333623, y: 2.40000033, z: 0}
+    - {x: 3.46666765, y: 3.20000029, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -1.60000014, y: .800000072, z: 0}
+    - {x: 1.86666739, y: .800000072, z: 0}
+    - {x: -1.60000014, y: 4.00000048, z: 0}
+    - {x: 1.86666739, y: 4.00000048, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .513672829, y: .233399421}
+    - {x: .513672829, y: .334959954}
+    - {x: .607420921, y: .233399421}
+    - {x: .607420921, y: .334959954}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 84fe6449c325a9e49b73cbf412dea236
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PHeroOne_sleep_004
+    boundsData:
+    - {x: .133333623, y: 2.40000033, z: 0}
+    - {x: 3.46666765, y: 3.20000029, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -1.60000014, y: .800000072, z: 0}
+    - {x: 1.86666739, y: .800000072, z: 0}
+    - {x: -1.60000014, y: 4.00000048, z: 0}
+    - {x: 1.86666739, y: 4.00000048, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .538086891, y: .338868171}
+    - {x: .639647484, y: .338868171}
+    - {x: .538086891, y: .432616204}
+    - {x: .639647484, y: .432616204}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 8c6038064fdc8ec42b09d949f5f6b5c3
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PHeroOne_stand_001
+    boundsData:
+    - {x: .633333683, y: 1.26666653, z: 0}
+    - {x: 3.66666746, y: 3.33333325, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -1.20000005, y: -.400000036, z: 0}
+    - {x: 2.46666741, y: -.400000036, z: 0}
+    - {x: -1.20000005, y: 2.93333316, z: 0}
+    - {x: 2.46666741, y: 2.93333316, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .399415046, y: .570313454}
+    - {x: .399415046, y: .677733421}
+    - {x: .497069329, y: .570313454}
+    - {x: .497069329, y: .677733421}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 53be5b15f56eddf4d915bc60a537660b
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PHeroOne_stand_002
+    boundsData:
+    - {x: .566666842, y: 1.28333366, z: 0}
+    - {x: 3.86666679, y: 3.36666751, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -1.36666656, y: -.400000036, z: 0}
+    - {x: 2.50000024, y: -.400000036, z: 0}
+    - {x: -1.36666656, y: 2.96666741, z: 0}
+    - {x: 2.50000024, y: 2.96666741, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .265625983, y: .725586891}
+    - {x: .378905267, y: .725586891}
+    - {x: .265625983, y: .824217796}
+    - {x: .378905267, y: .824217796}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+    materialId: 0
+    sourceTextureGUID: fdf3755a51ba2d44082c4ae9c0b442b5
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PHeroOne_stand_003
+    boundsData:
+    - {x: .600000083, y: 1.30000007, z: 0}
+    - {x: 3.80000019, y: 3.40000033, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -1.30000007, y: -.400000036, z: 0}
+    - {x: 2.50000024, y: -.400000036, z: 0}
+    - {x: -1.30000007, y: 3.00000024, z: 0}
+    - {x: 2.50000024, y: 3.00000024, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .341797858, y: .828125954}
+    - {x: .341797858, y: .939452171}
+    - {x: .441405267, y: .828125954}
+    - {x: .441405267, y: .939452171}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+    materialId: 0
+    sourceTextureGUID: c10fe23e7005b904e91c4ac1a854a516
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PHeroOne_stand_004
+    boundsData:
+    - {x: .600000441, y: 1.26666653, z: 0}
+    - {x: 3.73333406, y: 3.33333325, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -1.26666653, y: -.400000036, z: 0}
+    - {x: 2.46666741, y: -.400000036, z: 0}
+    - {x: -1.26666653, y: 2.93333316, z: 0}
+    - {x: 2.46666741, y: 2.93333316, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .445313483, y: .813477516}
+    - {x: .445313483, y: .922850609}
+    - {x: .542967796, y: .813477516}
+    - {x: .542967796, y: .922850609}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 027bd1eb72f3c944ba6c2893d0a24036
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PHeroOne_victory
+    boundsData:
+    - {x: .116666794, y: 1.93333375, z: 0}
+    - {x: 3.16666675, y: 3.86666751, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -1.46666658, y: 0, z: 0}
+    - {x: 1.70000017, y: 0, z: 0}
+    - {x: -1.46666658, y: 3.86666751, z: 0}
+    - {x: 1.70000017, y: 3.86666751, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .386719733, y: .453125983}
+    - {x: .479491204, y: .453125983}
+    - {x: .386719733, y: .566405296}
+    - {x: .479491204, y: .566405296}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+    materialId: 0
+    sourceTextureGUID: befab3ae11811bb45b41fbfff04c9f75
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PHeroOne_run_019
+    boundsData:
+    - {x: .616666853, y: 1.41666687, z: 0}
+    - {x: 4.10000134, y: 3.16666675, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -1.43333375, y: -.166666433, z: 0}
+    - {x: 2.66666746, y: -.166666433, z: 0}
+    - {x: -1.43333375, y: 3.00000024, z: 0}
+    - {x: 2.66666746, y: 3.00000024, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .262696296, y: .524415016}
+    - {x: .382811517, y: .524415016}
+    - {x: .262696296, y: .617186546}
+    - {x: .382811517, y: .617186546}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 13ef5b469215b23458e816a30b5fb74d
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: 
+    boundsData:
+    - {x: 1.03333342, y: -1.03333342, z: 0}
+    - {x: 2.13333344, y: 2.13333344, z: 0}
+    untrimmedBoundsData:
+    - {x: 1.03333342, y: -1.03333342, z: 0}
+    - {x: 2.13333344, y: 2.13333344, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -.0333333351, y: -2.10000014, z: 0}
+    - {x: 2.10000014, y: -2.10000014, z: 0}
+    - {x: -.0333333351, y: .0333333015, z: 0}
+    - {x: 2.10000014, y: .0333333015, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .142579108, y: .366211921}
+    - {x: .144530267, y: .366211921}
+    - {x: .142579108, y: .368163079}
+    - {x: .144530267, y: .368163079}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PHeroOne_run_023
+    boundsData:
+    - {x: .533333242, y: 1.41666698, z: 0}
+    - {x: 3.93333387, y: 2.9666667, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -1.43333375, y: -.0666664168, z: 0}
+    - {x: 2.50000024, y: -.0666664168, z: 0}
+    - {x: -1.43333375, y: 2.90000033, z: 0}
+    - {x: 2.50000024, y: 2.90000033, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .501954079, y: .662110329}
+    - {x: .501954079, y: .777342796}
+    - {x: .588866234, y: .662110329}
+    - {x: .588866234, y: .777342796}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 6f06fbc26a77bc143a5168863a8e928d
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PHeroOne_run_024
+    boundsData:
+    - {x: .23333323, y: 1.63333368, z: 0}
+    - {x: 3.73333383, y: 3.06666756, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -1.63333368, y: .100000009, z: 0}
+    - {x: 2.10000014, y: .100000009, z: 0}
+    - {x: -1.63333368, y: 3.16666746, z: 0}
+    - {x: 2.10000014, y: 3.16666746, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .592774391, y: .662110329}
+    - {x: .592774391, y: .771483421}
+    - {x: .682616234, y: .662110329}
+    - {x: .682616234, y: .771483421}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 8ab912762b0d6b947ade8edd7f579ef4
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PHeroOne_run_021
+    boundsData:
+    - {x: .19999963, y: 1.36666703, z: 0}
+    - {x: 3.4666667, y: 3.4666667, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -1.53333378, y: -.366666436, z: 0}
+    - {x: 1.93333304, y: -.366666436, z: 0}
+    - {x: -1.53333378, y: 3.10000038, z: 0}
+    - {x: 1.93333304, y: 3.10000038, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .500977516, y: .556641579}
+    - {x: .602538109, y: .556641579}
+    - {x: .500977516, y: .658202171}
+    - {x: .602538109, y: .658202171}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 8e5829233c12a874095312662a0efb74
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: 
+    boundsData:
+    - {x: 1.03333342, y: -1.03333342, z: 0}
+    - {x: 2.13333344, y: 2.13333344, z: 0}
+    untrimmedBoundsData:
+    - {x: 1.03333342, y: -1.03333342, z: 0}
+    - {x: 2.13333344, y: 2.13333344, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -.0333333351, y: -2.10000014, z: 0}
+    - {x: 2.10000014, y: -2.10000014, z: 0}
+    - {x: -.0333333351, y: .0333333015, z: 0}
+    - {x: 2.10000014, y: .0333333015, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .142579108, y: .366211921}
+    - {x: .144530267, y: .366211921}
+    - {x: .142579108, y: .368163079}
+    - {x: .144530267, y: .368163079}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: 
+    boundsData:
+    - {x: 1.03333342, y: -1.03333342, z: 0}
+    - {x: 2.13333344, y: 2.13333344, z: 0}
+    untrimmedBoundsData:
+    - {x: 1.03333342, y: -1.03333342, z: 0}
+    - {x: 2.13333344, y: 2.13333344, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -.0333333351, y: -2.10000014, z: 0}
+    - {x: 2.10000014, y: -2.10000014, z: 0}
+    - {x: -.0333333351, y: .0333333015, z: 0}
+    - {x: 2.10000014, y: .0333333015, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .142579108, y: .366211921}
+    - {x: .144530267, y: .366211921}
+    - {x: .142579108, y: .368163079}
+    - {x: .144530267, y: .368163079}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+    materialId: 0
+    sourceTextureGUID: 
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PHeroOne_run_022
+    boundsData:
+    - {x: .44999969, y: 1.28333378, z: 0}
+    - {x: 3.56666684, y: 3.76666737, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -1.33333373, y: -.600000024, z: 0}
+    - {x: 2.23333311, y: -.600000024, z: 0}
+    - {x: -1.33333373, y: 3.16666746, z: 0}
+    - {x: 2.23333311, y: 3.16666746, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .233399421, y: .830079079}
+    - {x: .337889642, y: .830079079}
+    - {x: .233399421, y: .940428734}
+    - {x: .337889642, y: .940428734}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+    materialId: 0
+    sourceTextureGUID: ee6b2d8d3549acc479326a136dbc3c7a
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PHeroOne_run_020
+    boundsData:
+    - {x: .249999642, y: 1.36666703, z: 0}
+    - {x: 3.56666684, y: 3.4666667, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -1.53333378, y: -.366666436, z: 0}
+    - {x: 2.03333306, y: -.366666436, z: 0}
+    - {x: -1.53333378, y: 3.10000038, z: 0}
+    - {x: 2.03333306, y: 3.10000038, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .310547858, y: .344727546}
+    - {x: .310547858, y: .449217767}
+    - {x: .412108392, y: .344727546}
+    - {x: .412108392, y: .449217767}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+    materialId: 0
+    sourceTextureGUID: f9ee5d61602883c49add202e0ddc2b79
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 37d15d6da881093409fe984a31aa0df6, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 4568fcd3e408d3f438cf16ff3cb475e4, type: 3}
+  pngTextures: []
+  materialPngTextureId: 00000000
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: d431cd7d8a01e7940b687a7c228a78a8
+  spriteCollectionName: SpriteCollection_Predator_PHeroOne
+  assetName: 
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: 15
+  buildKey: 2064047
+  dataGuid: fc740c7233c1be144bae997593cb2b4f
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

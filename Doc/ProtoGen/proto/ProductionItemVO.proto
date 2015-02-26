@@ -1,0 +1,7 @@
+option java_package = "com.pureland.common.protocal.vo";
+option java_outer_classname = "ProductionItemVOProtocal";
+
+message ProductionItemVO {
+	required int32 cid					=1;
+	required int32 count				=2;
+}

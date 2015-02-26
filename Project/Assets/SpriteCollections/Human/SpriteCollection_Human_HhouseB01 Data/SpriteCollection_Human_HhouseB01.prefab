@@ -1,0 +1,290 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: SpriteCollection_Human_HhouseB01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: HhouseB01_stand_001
+    boundsData:
+    - {x: .183333158, y: 1.26666641, z: 0}
+    - {x: 4.43333387, y: 6.9333334, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -2.03333378, y: -2.20000029, z: 0}
+    - {x: 2.4000001, y: -2.20000029, z: 0}
+    - {x: -2.03333378, y: 4.73333311, z: 0}
+    - {x: 2.4000001, y: 4.73333311, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .550783217}
+    - {x: .263669908, y: .550783217}
+    - {x: .00390820298, y: .957029283}
+    - {x: .263669908, y: .957029283}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 3d71a10d3e39f5f4593051867d7c5714, type: 2}
+    materialId: 0
+    sourceTextureGUID: 0400183bf898d3d4d8a50ae88dbc939d
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: HhouseB01_stand_002
+    boundsData:
+    - {x: .183333158, y: 1.26666641, z: 0}
+    - {x: 4.43333387, y: 6.9333334, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -2.03333378, y: -2.20000029, z: 0}
+    - {x: 2.4000001, y: -2.20000029, z: 0}
+    - {x: -2.03333378, y: 4.73333311, z: 0}
+    - {x: 2.4000001, y: 4.73333311, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .271486342, y: .550783217}
+    - {x: .531248033, y: .550783217}
+    - {x: .271486342, y: .957029283}
+    - {x: .531248033, y: .957029283}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 3d71a10d3e39f5f4593051867d7c5714, type: 2}
+    materialId: 0
+    sourceTextureGUID: 2430965d03e9f6344bfb7fe43b1e9fa6
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: HhouseB01_stand_003
+    boundsData:
+    - {x: .233333349, y: 1.70000005, z: 0}
+    - {x: 5.86666679, y: 9.20000076, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 34.1333351, y: 34.1333351, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -2.70000005, y: -2.9000001, z: 0}
+    - {x: 3.16666675, y: -2.9000001, z: 0}
+    - {x: -2.70000005, y: 6.30000019, z: 0}
+    - {x: 3.16666675, y: 6.30000019, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .00390820298}
+    - {x: .347654283, y: .00390820298}
+    - {x: .00390820298, y: .542966783}
+    - {x: .347654283, y: .542966783}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 3d71a10d3e39f5f4593051867d7c5714, type: 2}
+    materialId: 0
+    sourceTextureGUID: eb2cd0382063e6845a73dde0eadd64f7
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: HhouseB01_stand_004
+    boundsData:
+    - {x: .183333158, y: 1.26666641, z: 0}
+    - {x: 4.43333387, y: 6.9333334, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -2.03333378, y: -2.20000029, z: 0}
+    - {x: 2.4000001, y: -2.20000029, z: 0}
+    - {x: -2.03333378, y: 4.73333311, z: 0}
+    - {x: 2.4000001, y: 4.73333311, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .355470717, y: .00390820298}
+    - {x: .615232408, y: .00390820298}
+    - {x: .355470717, y: .410154283}
+    - {x: .615232408, y: .410154283}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 3d71a10d3e39f5f4593051867d7c5714, type: 2}
+    materialId: 0
+    sourceTextureGUID: 52da00421338a824395de596a77e58df
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: HhouseB01_stand_005
+    boundsData:
+    - {x: .183333158, y: 1.26666641, z: 0}
+    - {x: 4.43333387, y: 6.9333334, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6000023, y: 25.6000023, z: 0}
+    texelSize: {x: .0333333351, y: .0333333351}
+    positions:
+    - {x: -2.03333378, y: -2.20000029, z: 0}
+    - {x: 2.4000001, y: -2.20000029, z: 0}
+    - {x: -2.03333378, y: 4.73333311, z: 0}
+    - {x: 2.4000001, y: 4.73333311, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .539064467, y: .417970717}
+    - {x: .539064467, y: .677732408}
+    - {x: .945310533, y: .417970717}
+    - {x: .945310533, y: .677732408}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 3d71a10d3e39f5f4593051867d7c5714, type: 2}
+    materialId: 0
+    sourceTextureGUID: 60a1f1c98129be8489227624cb7a7102
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 3d71a10d3e39f5f4593051867d7c5714, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 8eab596e0ef4abf459457a744158deca, type: 3}
+  pngTextures: []
+  materialPngTextureId: 00000000
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: 9b72e9181815f8043abf10f1527742f3
+  spriteCollectionName: SpriteCollection_Human_HhouseB01
+  assetName: 
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: 15
+  buildKey: 468522456
+  dataGuid: ab3a70d270b132c42a600c0c29e262f5
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

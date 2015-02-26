@@ -1,0 +1,25 @@
+import "ProductionBuildingVO.proto";
+import "ResourceBuildingVO.proto";
+import "ResearchBuildingVO.proto";
+import "TrapBuildingVO.proto";
+
+option java_package = "com.pureland.common.protocal.vo";
+option java_outer_classname = "BuildingVOProtocal";
+
+message BuildingVO {
+	enum BuildingStatus {
+		On 											=1;		//正常工作
+		Construct 									=2;		//建造中
+		Upgrade 									=3;		//升级中
+	}
+	required int64 sid 									=1;		//服务器端id
+	required int32 cid 									=2;		//客户端id
+	required int32 x 									=3;		//坐标x
+	required int32 y 									=4;		//坐标y
+	optional BuildingStatus buildingStatus 				=5;		//建筑状态
+	optional int64 endTime 								=6; 	//完成建造或者升级的时间
+	optional ResourceBuildingVO resourceBuildingVO		=7;		//资源类建筑数据
+	optional ProductionBuildingVO productionBuildingVO 	=8;		//生产士兵/技能等建筑数据
+	optional ResearchBuildingVO researchBuildingVO 		=9;		//升级技能建筑数据
+	optional TrapBuildingVO trapBuildingVO 				=10;	//陷阱类建筑数据
+}

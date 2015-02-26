@@ -1,0 +1,20 @@
+import "ProductionItemVO.proto";
+
+option java_package = "com.pureland.common.protocal";
+option java_outer_classname = "ProductionReqProtocal";
+
+
+message ProductionReq {
+	enum ProductionRequestType
+	{
+		Add 												=1; //添加
+		Remove												=2; //移除
+		Complete											=3; //完成生产
+		CompleteImmediately 								=4; //立即完成
+	}
+	required ProductionRequestType productionRequestType 	=1; //生产请求类型
+	required int64 sid 										=2;	//生产的建筑id
+	optional ProductionItemVO productionItemVO 				=3;	//生产的物品
+	required int64 time										=4; //当前的时间
+	optional int32 diamondCount 							=5; //立即完成使用的钻石数量
+}

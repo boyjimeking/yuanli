@@ -1,0 +1,6 @@
+option java_package = "com.pureland.common.protocal";
+option java_outer_classname = "ChargeDiamondProtocal";
+
+message ChargeDiamondReq {
+	required int32 diamondCount 		=1; 
+}

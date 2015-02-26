@@ -1,0 +1,13 @@
+option java_package = "com.pureland.common.protocal";
+option java_outer_classname = "FightSearchReqProtocal";
+
+
+message FightSearchReq {
+	enum SearchType
+	{
+		PVE 												=1; //本地NPC
+		PVP_NORMAL										    =2; //玩家PVP普通搜索
+		PVP_HIGH										    =3; //玩家PVP高级搜索
+	}
+	required SearchType searchType 	                        =1; //战斗搜索类型
+}

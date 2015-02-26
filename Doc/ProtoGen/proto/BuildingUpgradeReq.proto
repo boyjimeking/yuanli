@@ -1,0 +1,11 @@
+import "ResourceType.proto";
+
+option java_package = "com.pureland.common.protocal";
+option java_outer_classname = "BuildingUpgradeReqProtocal";
+
+message BuildingUpgradeReq {
+	required int64 sid 						=1;
+	required ResourceType resourceType 		=2;
+	optional bool cancel 					=3;
+	optional int64 endTime 					=4;
+}

@@ -1,0 +1,17 @@
+import "RespWrapper.proto";
+option java_package = "com.pureland.test.model.protocal";
+option java_outer_classname = "BaseRespProtocal";
+
+message BaseResp
+{
+	enum ErrorType {
+		OK												=0;		//无错误
+		AuthFailed 										=1;		//身份认证失败
+		DataVerifyFailed								=2;		//数据验证失败
+		IsInFight										=3;		//是否在战斗
+		IsOffLine										=4;		//是否离线
+	}
+	required ErrorType errorType					=1;
+	optional RespWrapper respWrapper 				=2;
+	optional string errorMessage                                    =3;
+}

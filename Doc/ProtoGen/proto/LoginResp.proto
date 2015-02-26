@@ -1,0 +1,9 @@
+option java_package = "com.pureland.common.protocal";
+option java_outer_classname = "LoginRespProtocal";
+
+message LoginResp {
+	required string authToken		=1;
+	required int64 userId 			=2;
+	required int64 nextItemSid		=3;		//建造建筑的服务器id索引
+	required int64 currentTime 		=4;		//当前服务器时间
+}

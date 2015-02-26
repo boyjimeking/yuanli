@@ -1,0 +1,3 @@
+message PlayerLocalDataVO {
+	required string machineId 			=1;
+}

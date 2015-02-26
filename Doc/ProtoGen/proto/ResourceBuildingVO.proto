@@ -1,0 +1,7 @@
+option java_package = "com.pureland.common.protocal.vo";
+option java_outer_classname = "ResourceBuildingVOProtocal";
+
+message ResourceBuildingVO {
+	required int64 lastGatherTime				=1;		//上一次收取的时间
+	required int32 storage 						=2; 	//存量  可收取量 = (上次收获时间到现在收获时间的产品 + 存量)
+}

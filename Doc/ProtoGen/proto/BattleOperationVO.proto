@@ -1,0 +1,13 @@
+import "BattleOperationPlaceSoldierVO.proto";
+
+option java_package = "com.pureland.common.protocal.vo";
+option java_outer_classname = "BattleOperationVOProtocal";
+
+message BattleOperationVO {
+	enum BattleOperationType {
+		PlaceSoldier 	=1;
+	}
+	required int32 frame 													=1;
+	required BattleOperationType battleOperationType 						=2;
+	optional BattleOperationPlaceSoldierVO battleOperationPlaceSoldierVO 	=3;
+}

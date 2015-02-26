@@ -1,0 +1,8 @@
+import "ResourceVO.proto";
+
+option java_package = "com.pureland.common.protocal";
+option java_outer_classname = "BuyResourceProtocal";
+
+message BuyResourceReq {
+	required ResourceVO resourceVO 		=1; 
+}

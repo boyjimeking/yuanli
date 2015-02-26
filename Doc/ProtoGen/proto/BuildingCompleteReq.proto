@@ -1,0 +1,13 @@
+option java_package = "com.pureland.common.protocal";
+option java_outer_classname = "BuildingCompleteReqProtocal";
+
+message BuildingCompleteReq {
+	enum CompleteType
+	{
+		Normal 							=1;
+		CompleteImmediately 			=2;
+	}
+	required CompleteType completeType 	=1; 	//完成类型
+	required int64 sid 					=2;
+	optional int64 timestamp 			=3;		//立即结束时的时间点
+}

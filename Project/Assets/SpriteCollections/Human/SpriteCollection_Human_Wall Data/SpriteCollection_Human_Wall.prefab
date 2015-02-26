@@ -1,0 +1,248 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: SpriteCollection_Human_Wall
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: HwallB01_0
+    boundsData:
+    - {x: -.0125000179, y: .525000036, z: 0}
+    - {x: 1.7249999, y: 2.85000038, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -.0125000477, z: 0}
+    - {x: 3.1500001, y: 4.42500019, z: 0}
+    texelSize: {x: .0250000004, y: .0250000004}
+    positions:
+    - {x: -.875, y: -.900000095, z: 0}
+    - {x: .849999964, y: -.900000095, z: 0}
+    - {x: -.875, y: 1.95000017, z: 0}
+    - {x: .849999964, y: 1.95000017, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 3.90625019e-06, y: .472660154}
+    - {x: 3.90625019e-06, y: .742183566}
+    - {x: .445308596, y: .472660154}
+    - {x: .445308596, y: .742183566}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a3f0a06dddafafa4a9380ddb957f2426, type: 2}
+    materialId: 0
+    sourceTextureGUID: 8e01433a9af7946a4a953bfd53f04463
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: HwallB01_1
+    boundsData:
+    - {x: .337500006, y: .612499952, z: 0}
+    - {x: 2.47500014, y: 3.0250001, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -.0125000477, z: 0}
+    - {x: 3.1500001, y: 4.42500019, z: 0}
+    texelSize: {x: .0250000004, y: .0250000004}
+    positions:
+    - {x: -.900000036, y: -.900000095, z: 0}
+    - {x: 1.57500005, y: -.900000095, z: 0}
+    - {x: -.900000036, y: 2.125, z: 0}
+    - {x: 1.57500005, y: 2.125, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .492191404, y: 3.90625019e-06}
+    - {x: .492191404, y: .386714846}
+    - {x: .964839816, y: 3.90625019e-06}
+    - {x: .964839816, y: .386714846}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a3f0a06dddafafa4a9380ddb957f2426, type: 2}
+    materialId: 0
+    sourceTextureGUID: ebc5acdc0c9634570ae7fdc9d0df978b
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: HwallB01_2
+    boundsData:
+    - {x: -.362500042, y: .612499952, z: 0}
+    - {x: 2.42499995, y: 3.0250001, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -.0125000477, z: 0}
+    - {x: 3.1500001, y: 4.42500019, z: 0}
+    texelSize: {x: .0250000004, y: .0250000004}
+    positions:
+    - {x: -1.57500005, y: -.900000095, z: 0}
+    - {x: .849999964, y: -.900000095, z: 0}
+    - {x: -1.57500005, y: 2.125, z: 0}
+    - {x: .849999964, y: 2.125, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .492191404, y: .386722654}
+    - {x: .492191404, y: .765621066}
+    - {x: .964839816, y: .386722654}
+    - {x: .964839816, y: .765621066}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a3f0a06dddafafa4a9380ddb957f2426, type: 2}
+    materialId: 0
+    sourceTextureGUID: 3dcf5627aed344cb391b1aa29b2ebf3f
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: HwallB01_3
+    boundsData:
+    - {x: 0, y: .612499952, z: 0}
+    - {x: 3.1500001, y: 3.0250001, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -.0125000477, z: 0}
+    - {x: 3.1500001, y: 4.42500019, z: 0}
+    texelSize: {x: .0250000004, y: .0250000004}
+    positions:
+    - {x: -1.57500005, y: -.900000095, z: 0}
+    - {x: 1.57500005, y: -.900000095, z: 0}
+    - {x: -1.57500005, y: 2.125, z: 0}
+    - {x: 1.57500005, y: 2.125, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 3.90625019e-06, y: 3.90625019e-06}
+    - {x: .492183596, y: 3.90625019e-06}
+    - {x: 3.90625019e-06, y: .472652346}
+    - {x: .492183596, y: .472652346}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a3f0a06dddafafa4a9380ddb957f2426, type: 2}
+    materialId: 0
+    sourceTextureGUID: 655de94b86d4546fc88e319918081569
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: a3f0a06dddafafa4a9380ddb957f2426, type: 2}
+  textures:
+  - {fileID: 2800000, guid: e198078e446c4384ab0127bf09771ff5, type: 3}
+  pngTextures: []
+  materialPngTextureId: 00000000
+  textureFilterMode: 0
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: 255cc8011ca048f40b90e298e27cfd12
+  spriteCollectionName: SpriteCollection_Human_Wall
+  assetName: 
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: 20
+  buildKey: 191301718
+  dataGuid: 389f21db205a9a845a942a0815560f95
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

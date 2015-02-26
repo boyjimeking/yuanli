@@ -1,0 +1,816 @@
+fileFormatVersion: 2
+guid: 159966e4a3fe4e346b29b1fa9747616a
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: ___
+    100004: ______
+    100006: ______
+    100008: ______
+    100010: _________
+    100012: _________
+    100014: _________
+    100016: _________
+    100018: _________
+    100020: _________
+    100022: _________
+    100024: b02
+    100026: Bone001
+    100028: Bone002
+    100030: Bone003
+    100032: Bone004
+    100034: Bone005
+    100036: Bone006
+    100038: Bone007
+    100040: driver
+    100042: Group001
+    100044: Object01
+    100046: Object01 1
+    100048: Object02
+    100050: Object03
+    100052: Object03 1
+    100054: Object04
+    100056: Object04 1
+    100058: Object05
+    100060: Object05 1
+    100062: Object06
+    100064: Object07
+    100066: Object07 1
+    100068: Object08
+    100070: Object09
+    100072: Object09 1
+    100074: Object10
+    100076: Object106
+    100078: Object109
+    100080: Object11
+    100082: Object12
+    100084: Object121
+    100086: Object122
+    100088: Object123
+    100090: Object124
+    100092: Object125
+    100094: Object126
+    100096: Object127
+    100098: Object128
+    100100: Object129
+    100102: Object13
+    100104: Object130
+    100106: Object131
+    100108: Object132
+    100110: Object14
+    100112: Object15
+    100114: Object65
+    100116: Object66
+    100118: Particle VHJ
+    100120: Particle Vie;;
+    100122: Particle View 01
+    100124: Particle View 01 1
+    100126: Particle View 01 10
+    100128: Particle View 01 11
+    100130: Particle View 01 12
+    100132: Particle View 01 13
+    100134: Particle View 01 14
+    100136: Particle View 01 15
+    100138: Particle View 01 16
+    100140: Particle View 01 17
+    100142: Particle View 01 18
+    100144: Particle View 01 19
+    100146: Particle View 01 2
+    100148: Particle View 01 20
+    100150: Particle View 01 21
+    100152: Particle View 01 22
+    100154: Particle View 01 23
+    100156: Particle View 01 24
+    100158: Particle View 01 25
+    100160: Particle View 01 26
+    100162: Particle View 01 27
+    100164: Particle View 01 28
+    100166: Particle View 01 29
+    100168: Particle View 01 3
+    100170: Particle View 01 30
+    100172: Particle View 01 31
+    100174: Particle View 01 32
+    100176: Particle View 01 33
+    100178: Particle View 01 34
+    100180: Particle View 01 35
+    100182: Particle View 01 36
+    100184: Particle View 01 37
+    100186: Particle View 01 38
+    100188: Particle View 01 39
+    100190: Particle View 01 4
+    100192: Particle View 01 40
+    100194: Particle View 01 41
+    100196: Particle View 01 42
+    100198: Particle View 01 43
+    100200: Particle View 01 44
+    100202: Particle View 01 45
+    100204: Particle View 01 46
+    100206: Particle View 01 47
+    100208: Particle View 01 48
+    100210: Particle View 01 49
+    100212: Particle View 01 5
+    100214: Particle View 01 50
+    100216: Particle View 01 51
+    100218: Particle View 01 52
+    100220: Particle View 01 53
+    100222: Particle View 01 54
+    100224: Particle View 01 55
+    100226: Particle View 01 56
+    100228: Particle View 01 57
+    100230: Particle View 01 58
+    100232: Particle View 01 59
+    100234: Particle View 01 6
+    100236: Particle View 01 60
+    100238: Particle View 01 61
+    100240: Particle View 01 62
+    100242: Particle View 01 63
+    100244: Particle View 01 64
+    100246: Particle View 01 65
+    100248: Particle View 01 66
+    100250: Particle View 01 67
+    100252: Particle View 01 68
+    100254: Particle View 01 69
+    100256: Particle View 01 7
+    100258: Particle View 01 70
+    100260: Particle View 01 71
+    100262: Particle View 01 72
+    100264: Particle View 01 73
+    100266: Particle View 01 74
+    100268: Particle View 01 75
+    100270: Particle View 01 76
+    100272: Particle View 01 77
+    100274: Particle View 01 78
+    100276: Particle View 01 79
+    100278: Particle View 01 8
+    100280: Particle View 01 80
+    100282: Particle View 01 81
+    100284: Particle View 01 82
+    100286: Particle View 01 83
+    100288: Particle View 01 84
+    100290: Particle View 01 85
+    100292: Particle View 01 86
+    100294: Particle View 01 87
+    100296: Particle View 01 88
+    100298: Particle View 01 89
+    100300: Particle View 01 9
+    100302: Particle View 01 90
+    100304: Particle ViK
+    100306: Particle ViKJ
+    100308: ParticlHJ
+    400000: //RootNode
+    400002: ___
+    400004: ______
+    400006: ______
+    400008: ______
+    400010: _________
+    400012: _________
+    400014: _________
+    400016: _________
+    400018: _________
+    400020: _________
+    400022: _________
+    400024: b02
+    400026: Bone001
+    400028: Bone002
+    400030: Bone003
+    400032: Bone004
+    400034: Bone005
+    400036: Bone006
+    400038: Bone007
+    400040: driver
+    400042: Group001
+    400044: Object01
+    400046: Object01 1
+    400048: Object02
+    400050: Object03
+    400052: Object03 1
+    400054: Object04
+    400056: Object04 1
+    400058: Object05
+    400060: Object05 1
+    400062: Object06
+    400064: Object07
+    400066: Object07 1
+    400068: Object08
+    400070: Object09
+    400072: Object09 1
+    400074: Object10
+    400076: Object106
+    400078: Object109
+    400080: Object11
+    400082: Object12
+    400084: Object121
+    400086: Object122
+    400088: Object123
+    400090: Object124
+    400092: Object125
+    400094: Object126
+    400096: Object127
+    400098: Object128
+    400100: Object129
+    400102: Object13
+    400104: Object130
+    400106: Object131
+    400108: Object132
+    400110: Object14
+    400112: Object15
+    400114: Object65
+    400116: Object66
+    400118: Particle VHJ
+    400120: Particle Vie;;
+    400122: Particle View 01
+    400124: Particle View 01 1
+    400126: Particle View 01 10
+    400128: Particle View 01 11
+    400130: Particle View 01 12
+    400132: Particle View 01 13
+    400134: Particle View 01 14
+    400136: Particle View 01 15
+    400138: Particle View 01 16
+    400140: Particle View 01 17
+    400142: Particle View 01 18
+    400144: Particle View 01 19
+    400146: Particle View 01 2
+    400148: Particle View 01 20
+    400150: Particle View 01 21
+    400152: Particle View 01 22
+    400154: Particle View 01 23
+    400156: Particle View 01 24
+    400158: Particle View 01 25
+    400160: Particle View 01 26
+    400162: Particle View 01 27
+    400164: Particle View 01 28
+    400166: Particle View 01 29
+    400168: Particle View 01 3
+    400170: Particle View 01 30
+    400172: Particle View 01 31
+    400174: Particle View 01 32
+    400176: Particle View 01 33
+    400178: Particle View 01 34
+    400180: Particle View 01 35
+    400182: Particle View 01 36
+    400184: Particle View 01 37
+    400186: Particle View 01 38
+    400188: Particle View 01 39
+    400190: Particle View 01 4
+    400192: Particle View 01 40
+    400194: Particle View 01 41
+    400196: Particle View 01 42
+    400198: Particle View 01 43
+    400200: Particle View 01 44
+    400202: Particle View 01 45
+    400204: Particle View 01 46
+    400206: Particle View 01 47
+    400208: Particle View 01 48
+    400210: Particle View 01 49
+    400212: Particle View 01 5
+    400214: Particle View 01 50
+    400216: Particle View 01 51
+    400218: Particle View 01 52
+    400220: Particle View 01 53
+    400222: Particle View 01 54
+    400224: Particle View 01 55
+    400226: Particle View 01 56
+    400228: Particle View 01 57
+    400230: Particle View 01 58
+    400232: Particle View 01 59
+    400234: Particle View 01 6
+    400236: Particle View 01 60
+    400238: Particle View 01 61
+    400240: Particle View 01 62
+    400242: Particle View 01 63
+    400244: Particle View 01 64
+    400246: Particle View 01 65
+    400248: Particle View 01 66
+    400250: Particle View 01 67
+    400252: Particle View 01 68
+    400254: Particle View 01 69
+    400256: Particle View 01 7
+    400258: Particle View 01 70
+    400260: Particle View 01 71
+    400262: Particle View 01 72
+    400264: Particle View 01 73
+    400266: Particle View 01 74
+    400268: Particle View 01 75
+    400270: Particle View 01 76
+    400272: Particle View 01 77
+    400274: Particle View 01 78
+    400276: Particle View 01 79
+    400278: Particle View 01 8
+    400280: Particle View 01 80
+    400282: Particle View 01 81
+    400284: Particle View 01 82
+    400286: Particle View 01 83
+    400288: Particle View 01 84
+    400290: Particle View 01 85
+    400292: Particle View 01 86
+    400294: Particle View 01 87
+    400296: Particle View 01 88
+    400298: Particle View 01 89
+    400300: Particle View 01 9
+    400302: Particle View 01 90
+    400304: Particle ViK
+    400306: Particle ViKJ
+    400308: ParticlHJ
+    2300000: _________
+    2300002: _________
+    2300004: _________
+    2300006: b02
+    2300008: Object01 1
+    2300010: Object02
+    2300012: Object03 1
+    2300014: Object04 1
+    2300016: Object05 1
+    2300018: Object07 1
+    2300020: Object08
+    2300022: Object09 1
+    2300024: Object106
+    2300026: Object109
+    2300028: Object121
+    2300030: Object122
+    2300032: Object123
+    2300034: Object124
+    2300036: Object125
+    2300038: Object126
+    2300040: Object127
+    2300042: Object128
+    2300044: Object129
+    2300046: Object130
+    2300048: Object131
+    2300050: Object132
+    3300000: _________
+    3300002: _________
+    3300004: _________
+    3300006: b02
+    3300008: Object01 1
+    3300010: Object02
+    3300012: Object03 1
+    3300014: Object04 1
+    3300016: Object05 1
+    3300018: Object07 1
+    3300020: Object08
+    3300022: Object09 1
+    3300024: Object106
+    3300026: Object109
+    3300028: Object121
+    3300030: Object122
+    3300032: Object123
+    3300034: Object124
+    3300036: Object125
+    3300038: Object126
+    3300040: Object127
+    3300042: Object128
+    3300044: Object129
+    3300046: Object130
+    3300048: Object131
+    3300050: Object132
+    4300000: Object01
+    4300002: Object03
+    4300004: Object04
+    4300006: Object05
+    4300008: Object06
+    4300010: Object09
+    4300012: Object10
+    4300014: Object11
+    4300016: Object12
+    4300018: Object65
+    4300020: Object66
+    4300022: Object07
+    4300024: Object13
+    4300026: Object14
+    4300028: Object15
+    4300030: b02
+    4300032: Object122
+    4300034: Object07
+    4300036: Object02
+    4300038: Object126
+    4300040: Object125
+    4300042: Object124
+    4300044: _________
+    4300046: Object05
+    4300048: Object03
+    4300050: Object01
+    4300052: Object04
+    4300054: Object109
+    4300056: Object129
+    4300058: Object128
+    4300060: _________
+    4300062: _________
+    4300064: Object08
+    4300066: Object09
+    4300068: Object106
+    4300070: Object131
+    4300072: Object130
+    4300074: Object123
+    4300076: Object121
+    4300078: Object132
+    4300080: Object127
+    7400000: Fire
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Object01
+    13700002: Object03
+    13700004: Object04
+    13700006: Object05
+    13700008: Object06
+    13700010: Object07
+    13700012: Object09
+    13700014: Object10
+    13700016: Object11
+    13700018: Object12
+    13700020: Object13
+    13700022: Object14
+    13700024: Object15
+    13700026: Object65
+    13700028: Object66
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Fire
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 8
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone001
+        weight: 1
+      - path: Bone001/Bone002
+        weight: 1
+      - path: Bone001/Bone002/Bone003
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone004/Bone005
+        weight: 1
+      - path: Bone001/Bone006
+        weight: 1
+      - path: Bone001/Bone006/Bone007
+        weight: 1
+      - path: Bone001/Bone006/Bone007/driver
+        weight: 1
+      - path: Bone001/Bone006/Bone007/driver/___
+        weight: 1
+      - path: Bone001/Bone006/Bone007/driver/___/Object01 1
+        weight: 1
+      - path: Bone001/Bone006/Bone007/driver/___/Object03 1
+        weight: 1
+      - path: Bone001/Bone006/Bone007/driver/______
+        weight: 1
+      - path: Bone001/Bone006/Bone007/driver/______/Object04 1
+        weight: 1
+      - path: Bone001/Bone006/Bone007/driver/______/Object109
+        weight: 1
+      - path: Bone001/Bone006/Bone007/driver/______
+        weight: 1
+      - path: Bone001/Bone006/Bone007/driver/______/Object128
+        weight: 1
+      - path: Bone001/Bone006/Bone007/driver/______/Object129
+        weight: 1
+      - path: Bone001/Bone006/Bone007/driver/______
+        weight: 1
+      - path: Bone001/Bone006/Bone007/driver/______/Object127
+        weight: 1
+      - path: Bone001/Bone006/Bone007/driver/______/Object132
+        weight: 1
+      - path: Bone001/Bone006/Bone007/driver/_________
+        weight: 1
+      - path: Bone001/Bone006/Bone007/driver/_________/Object02
+        weight: 1
+      - path: Bone001/Bone006/Bone007/driver/_________/Object07 1
+        weight: 1
+      - path: Bone001/Bone006/Bone007/driver/_________/Object122
+        weight: 1
+      - path: Bone001/Bone006/Bone007/driver/_________
+        weight: 1
+      - path: Bone001/Bone006/Bone007/driver/_________/Object124
+        weight: 1
+      - path: Bone001/Bone006/Bone007/driver/_________/Object125
+        weight: 1
+      - path: Bone001/Bone006/Bone007/driver/_________/Object126
+        weight: 1
+      - path: Bone001/Bone006/Bone007/driver/_________
+        weight: 1
+      - path: Bone001/Bone006/Bone007/driver/_________
+        weight: 1
+      - path: Bone001/Bone006/Bone007/driver/_________
+        weight: 1
+      - path: Bone001/Bone006/Bone007/driver/_________
+        weight: 1
+      - path: Bone001/Bone006/Bone007/driver/_________/Object08
+        weight: 1
+      - path: Bone001/Bone006/Bone007/driver/_________/Object09 1
+        weight: 1
+      - path: Bone001/Bone006/Bone007/driver/_________/Object106
+        weight: 1
+      - path: Bone001/Bone006/Bone007/driver/_________
+        weight: 1
+      - path: Bone001/Bone006/Bone007/driver/_________/Object123
+        weight: 1
+      - path: Bone001/Bone006/Bone007/driver/_________/Object130
+        weight: 1
+      - path: Bone001/Bone006/Bone007/driver/_________/Object131
+        weight: 1
+      - path: Bone001/Bone006/Bone007/driver/b02
+        weight: 1
+      - path: Bone001/Bone006/Bone007/driver/Object05 1
+        weight: 1
+      - path: Bone001/Bone006/Bone007/driver/Object121
+        weight: 1
+      - path: Group001
+        weight: 1
+      - path: Group001/Object01
+        weight: 1
+      - path: Group001/Object03
+        weight: 1
+      - path: Group001/Object04
+        weight: 1
+      - path: Group001/Object05
+        weight: 1
+      - path: Group001/Object06
+        weight: 1
+      - path: Group001/Object07
+        weight: 1
+      - path: Group001/Object09
+        weight: 1
+      - path: Group001/Object10
+        weight: 1
+      - path: Group001/Object11
+        weight: 1
+      - path: Group001/Object12
+        weight: 1
+      - path: Group001/Object13
+        weight: 1
+      - path: Group001/Object14
+        weight: 1
+      - path: Group001/Object15
+        weight: 1
+      - path: Group001/Object65
+        weight: 1
+      - path: Group001/Object66
+        weight: 1
+      - path: Particle VHJ
+        weight: 1
+      - path: Particle Vie;;
+        weight: 1
+      - path: Particle View 01
+        weight: 1
+      - path: Particle View 01 1
+        weight: 1
+      - path: Particle View 01 2
+        weight: 1
+      - path: Particle View 01 3
+        weight: 1
+      - path: Particle View 01 4
+        weight: 1
+      - path: Particle View 01 5
+        weight: 1
+      - path: Particle View 01 6
+        weight: 1
+      - path: Particle View 01 7
+        weight: 1
+      - path: Particle View 01 8
+        weight: 1
+      - path: Particle View 01 9
+        weight: 1
+      - path: Particle View 01 10
+        weight: 1
+      - path: Particle View 01 11
+        weight: 1
+      - path: Particle View 01 12
+        weight: 1
+      - path: Particle View 01 13
+        weight: 1
+      - path: Particle View 01 14
+        weight: 1
+      - path: Particle View 01 15
+        weight: 1
+      - path: Particle View 01 16
+        weight: 1
+      - path: Particle View 01 17
+        weight: 1
+      - path: Particle View 01 18
+        weight: 1
+      - path: Particle View 01 19
+        weight: 1
+      - path: Particle View 01 20
+        weight: 1
+      - path: Particle View 01 21
+        weight: 1
+      - path: Particle View 01 22
+        weight: 1
+      - path: Particle View 01 23
+        weight: 1
+      - path: Particle View 01 24
+        weight: 1
+      - path: Particle View 01 25
+        weight: 1
+      - path: Particle View 01 26
+        weight: 1
+      - path: Particle View 01 27
+        weight: 1
+      - path: Particle View 01 28
+        weight: 1
+      - path: Particle View 01 29
+        weight: 1
+      - path: Particle View 01 30
+        weight: 1
+      - path: Particle View 01 31
+        weight: 1
+      - path: Particle View 01 32
+        weight: 1
+      - path: Particle View 01 33
+        weight: 1
+      - path: Particle View 01 34
+        weight: 1
+      - path: Particle View 01 35
+        weight: 1
+      - path: Particle View 01 36
+        weight: 1
+      - path: Particle View 01 37
+        weight: 1
+      - path: Particle View 01 38
+        weight: 1
+      - path: Particle View 01 39
+        weight: 1
+      - path: Particle View 01 40
+        weight: 1
+      - path: Particle View 01 41
+        weight: 1
+      - path: Particle View 01 42
+        weight: 1
+      - path: Particle View 01 43
+        weight: 1
+      - path: Particle View 01 44
+        weight: 1
+      - path: Particle View 01 45
+        weight: 1
+      - path: Particle View 01 46
+        weight: 1
+      - path: Particle View 01 47
+        weight: 1
+      - path: Particle View 01 48
+        weight: 1
+      - path: Particle View 01 49
+        weight: 1
+      - path: Particle View 01 50
+        weight: 1
+      - path: Particle View 01 51
+        weight: 1
+      - path: Particle View 01 52
+        weight: 1
+      - path: Particle View 01 53
+        weight: 1
+      - path: Particle View 01 54
+        weight: 1
+      - path: Particle View 01 55
+        weight: 1
+      - path: Particle View 01 56
+        weight: 1
+      - path: Particle View 01 57
+        weight: 1
+      - path: Particle View 01 58
+        weight: 1
+      - path: Particle View 01 59
+        weight: 1
+      - path: Particle View 01 60
+        weight: 1
+      - path: Particle View 01 61
+        weight: 1
+      - path: Particle View 01 62
+        weight: 1
+      - path: Particle View 01 63
+        weight: 1
+      - path: Particle View 01 64
+        weight: 1
+      - path: Particle View 01 65
+        weight: 1
+      - path: Particle View 01 66
+        weight: 1
+      - path: Particle View 01 67
+        weight: 1
+      - path: Particle View 01 68
+        weight: 1
+      - path: Particle View 01 69
+        weight: 1
+      - path: Particle View 01 70
+        weight: 1
+      - path: Particle View 01 71
+        weight: 1
+      - path: Particle View 01 72
+        weight: 1
+      - path: Particle View 01 73
+        weight: 1
+      - path: Particle View 01 74
+        weight: 1
+      - path: Particle View 01 75
+        weight: 1
+      - path: Particle View 01 76
+        weight: 1
+      - path: Particle View 01 77
+        weight: 1
+      - path: Particle View 01 78
+        weight: 1
+      - path: Particle View 01 79
+        weight: 1
+      - path: Particle View 01 80
+        weight: 1
+      - path: Particle View 01 81
+        weight: 1
+      - path: Particle View 01 82
+        weight: 1
+      - path: Particle View 01 83
+        weight: 1
+      - path: Particle View 01 84
+        weight: 1
+      - path: Particle View 01 85
+        weight: 1
+      - path: Particle View 01 86
+        weight: 1
+      - path: Particle View 01 87
+        weight: 1
+      - path: Particle View 01 88
+        weight: 1
+      - path: Particle View 01 89
+        weight: 1
+      - path: Particle View 01 90
+        weight: 1
+      - path: Particle ViK
+        weight: 1
+      - path: Particle ViKJ
+        weight: 1
+      - path: ParticlHJ
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

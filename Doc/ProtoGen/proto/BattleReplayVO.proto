@@ -1,0 +1,14 @@
+import "CampVO.proto";
+import "BattleOperationVO.proto";
+
+option java_package = "com.pureland.common.protocal.vo";
+option java_outer_classname = "BattleReplayVOProtocal";
+
+message BattleReplayVO {
+	required CampVO attacker 				=1;
+	required CampVO defender 				=2;
+	repeated BattleOperationVO battleInputs =3;
+	required int64 seed 					=4; 	//随机数种子
+	required int32 battleDuration 			=5; 	//战斗持续时间,帧数
+	required int64 battleStartTime 			=6;		//战斗开始时间点,用于资源结算.
+}

@@ -1,0 +1,7 @@
+option java_package = "com.pureland.common.protocal.vo";
+option java_outer_classname = "ArmyExpVOProtocal";
+
+message ArmyExpVO {
+	required int32 cid 				=1; //当前等级的cid
+	required int32 exp 				=2;	//这一类兵的总训练数量(经验)
+}

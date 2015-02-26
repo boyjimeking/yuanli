@@ -1,0 +1,8 @@
+option java_package = "com.pureland.common.protocal";
+option java_outer_classname = "AuthLoginReqProtocal";
+
+message AuthLoginReq {
+    required string machineId 		=1;
+    required string account 		=2;
+    required string passwd 		=3;
+}

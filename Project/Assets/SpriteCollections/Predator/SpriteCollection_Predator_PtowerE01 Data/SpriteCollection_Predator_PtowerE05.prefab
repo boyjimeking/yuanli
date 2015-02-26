@@ -1,0 +1,419 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: SpriteCollection_Predator_PtowerE05
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: PtowerE01_attack_001
+    boundsData:
+    - {x: -.0285717249, y: 1.88571429, z: 0}
+    - {x: 5.77142811, y: 6.68571424, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 21.9428577, y: 21.9428577, z: 0}
+    texelSize: {x: .0285714287, y: .0285714287}
+    positions:
+    - {x: -2.9142859, y: -1.45714295, z: 0}
+    - {x: 2.85714245, y: -1.45714295, z: 0}
+    - {x: -2.9142859, y: 5.22857141, z: 0}
+    - {x: 2.85714245, y: 5.22857141, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .466798842, y: .00195410149}
+    - {x: .466798842, y: .199217767}
+    - {x: .923826158, y: .00195410149}
+    - {x: .923826158, y: .199217767}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 284074936431bb245af5300caa98efe4, type: 2}
+    materialId: 0
+    sourceTextureGUID: 977841955235e92459087449b4461da6
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PtowerE01_attack_002
+    boundsData:
+    - {x: .0857146978, y: 1.87142897, z: 0}
+    - {x: 5.94285774, y: 6.65714359, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 21.9428577, y: 21.9428577, z: 0}
+    texelSize: {x: .0285714287, y: .0285714287}
+    positions:
+    - {x: -2.88571405, y: -1.45714295, z: 0}
+    - {x: 3.05714345, y: -1.45714295, z: 0}
+    - {x: -2.88571405, y: 5.20000076, z: 0}
+    - {x: 3.05714345, y: 5.20000076, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .00195410149}
+    - {x: .00390820298, y: .205077142}
+    - {x: .458982408, y: .00195410149}
+    - {x: .458982408, y: .205077142}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 284074936431bb245af5300caa98efe4, type: 2}
+    materialId: 0
+    sourceTextureGUID: 0a84d07ba784a1a4b97d43690e14f765
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints:
+    - name: FirePoint
+      position: {x: .199999809, y: 3.42857075, z: 0}
+      angle: 0
+  - name: PtowerE01_attack_003
+    boundsData:
+    - {x: -.0142858028, y: 1.89999986, z: 0}
+    - {x: 5.39999962, y: 6.71428537, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 21.9428577, y: 21.9428577, z: 0}
+    texelSize: {x: .0285714287, y: .0285714287}
+    positions:
+    - {x: -2.71428561, y: -1.45714295, z: 0}
+    - {x: 2.68571401, y: -1.45714295, z: 0}
+    - {x: -2.71428561, y: 5.25714254, z: 0}
+    - {x: 2.68571401, y: 5.25714254, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .208985358}
+    - {x: .373044908, y: .208985358}
+    - {x: .00390820298, y: .438475579}
+    - {x: .373044908, y: .438475579}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 284074936431bb245af5300caa98efe4, type: 2}
+    materialId: 0
+    sourceTextureGUID: 7bb0bd751c8771a458b836f78e3590c4
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PtowerE01_attack_004
+    boundsData:
+    - {x: .0714285374, y: 1.84285712, z: 0}
+    - {x: 5.68571472, y: 6.5999999, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 21.9428577, y: 21.9428577, z: 0}
+    texelSize: {x: .0285714287, y: .0285714287}
+    positions:
+    - {x: -2.77142882, y: -1.45714295, z: 0}
+    - {x: 2.9142859, y: -1.45714295, z: 0}
+    - {x: -2.77142882, y: 5.14285707, z: 0}
+    - {x: 2.9142859, y: 5.14285707, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .466798842, y: .203125983}
+    - {x: .466798842, y: .397459954}
+    - {x: .917966783, y: .203125983}
+    - {x: .917966783, y: .397459954}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 284074936431bb245af5300caa98efe4, type: 2}
+    materialId: 0
+    sourceTextureGUID: a32f97aca08ce5c44b8c1c9a2cc8f9ec
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PtowerE01_stand_001
+    boundsData:
+    - {x: .100000143, y: 1.47142839, z: 0}
+    - {x: 4.88571501, y: 5.85714245, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 21.9428577, y: 21.9428577, z: 0}
+    texelSize: {x: .0285714287, y: .0285714287}
+    positions:
+    - {x: -2.34285736, y: -1.45714295, z: 0}
+    - {x: 2.54285765, y: -1.45714295, z: 0}
+    - {x: -2.34285736, y: 4.39999962, z: 0}
+    - {x: 2.54285765, y: 4.39999962, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .442383796}
+    - {x: .337888658, y: .442383796}
+    - {x: .00390820298, y: .642577171}
+    - {x: .337888658, y: .642577171}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 284074936431bb245af5300caa98efe4, type: 2}
+    materialId: 0
+    sourceTextureGUID: 195c7e5e6f6baa6499d96196ba508495
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PtowerE01_stand_002
+    boundsData:
+    - {x: .114285946, y: 1.47142839, z: 0}
+    - {x: 5.02857208, y: 5.85714245, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 21.9428577, y: 21.9428577, z: 0}
+    texelSize: {x: .0285714287, y: .0285714287}
+    positions:
+    - {x: -2.4000001, y: -1.45714295, z: 0}
+    - {x: 2.62857199, y: -1.45714295, z: 0}
+    - {x: -2.4000001, y: 4.39999962, z: 0}
+    - {x: 2.62857199, y: 4.39999962, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .380861342, y: .401368171}
+    - {x: .380861342, y: .573241234}
+    - {x: .781248033, y: .401368171}
+    - {x: .781248033, y: .573241234}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 284074936431bb245af5300caa98efe4, type: 2}
+    materialId: 0
+    sourceTextureGUID: 60d395ce08c664b4ca97ee279d673d77
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PtowerE01_stand_003
+    boundsData:
+    - {x: .357142985, y: 1.47142839, z: 0}
+    - {x: 4.54285812, y: 5.85714245, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 21.9428577, y: 21.9428577, z: 0}
+    texelSize: {x: .0285714287, y: .0285714287}
+    positions:
+    - {x: -1.91428602, y: -1.45714295, z: 0}
+    - {x: 2.62857199, y: -1.45714295, z: 0}
+    - {x: -1.91428602, y: 4.39999962, z: 0}
+    - {x: 2.62857199, y: 4.39999962, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .646485329}
+    - {x: .314451158, y: .646485329}
+    - {x: .00390820298, y: .846678734}
+    - {x: .314451158, y: .846678734}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 284074936431bb245af5300caa98efe4, type: 2}
+    materialId: 0
+    sourceTextureGUID: 189aa479a5ace6f449a27ea4830b1151
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PtowerE01_stand_004
+    boundsData:
+    - {x: .45714277, y: 1.47142839, z: 0}
+    - {x: 4.74285746, y: 5.85714245, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 21.9428577, y: 21.9428577, z: 0}
+    texelSize: {x: .0285714287, y: .0285714287}
+    positions:
+    - {x: -1.91428602, y: -1.45714295, z: 0}
+    - {x: 2.82857156, y: -1.45714295, z: 0}
+    - {x: -1.91428602, y: 4.39999962, z: 0}
+    - {x: 2.82857156, y: 4.39999962, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .345705092, y: .577149391}
+    - {x: .345705092, y: .739256859}
+    - {x: .746091783, y: .577149391}
+    - {x: .746091783, y: .739256859}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 284074936431bb245af5300caa98efe4, type: 2}
+    materialId: 0
+    sourceTextureGUID: 09a436748b79768488f067ede309273d
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 284074936431bb245af5300caa98efe4, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 39192fc1a55ec5647989ec5a5fe2d4ff, type: 3}
+  pngTextures: []
+  materialPngTextureId: 00000000
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: a0afa31d246f1b34a904f3107fe962d9
+  spriteCollectionName: SpriteCollection_Predator_PtowerE01
+  assetName: 
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: 17.5
+  buildKey: 853864775
+  dataGuid: 8f8c32fcc8d7ffd4cb421d630d446f46
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

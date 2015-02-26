@@ -1,0 +1,75 @@
+import "ArmyUpgradeReq.proto";
+import "AuthLoginReq.proto";
+import "BuildingConsReq.proto";
+import "BuildingUpgradeReq.proto";
+import "CampReq.proto";
+import "GatherReq.proto";
+import "NoAuthLoginReq.proto";
+import "ProductionReq.proto";
+import "BuildingCompleteReq.proto";
+import "BattleResultReq.proto";
+import "BattleHistoryReq.proto";
+import "BattleReplayReq.proto";
+import "PlayerListReq.proto";
+import "ChangeAccountReq.proto";
+import "CompleteInfoReq.proto";
+import "FightSearchReq.proto";
+import "MoveBuildingReq.proto";
+import "TrapRefillReq.proto";
+import "ResearchReq.proto";
+import "BuyResourceReq.proto";
+import "ChargeDiamondReq.proto";
+
+option java_package = "com.pureland.common.protocal";
+option java_outer_classname = "ReqWrapperProtocal";
+
+message ReqWrapper
+{
+	enum RequestType
+	{
+		ArmyUpgrade 								=2;
+		AuthLogin 									=3;
+		BuildingCons								=4;
+		BuildingUpgrade 							=5;
+		Camp 										=6;
+		Gather 										=7;
+		NoAuthLogin 								=8;
+		Production 									=9;
+		BuildingComplete 							=10;
+		BattleResult 								=11; //战斗结果请求
+		BattleHistory 								=12; //历史战斗记录
+		BattleReplay 								=13; //请求战斗录像
+		PlayerList                                  =14;
+		ChangeAccount                               =15;
+		CompleteInfo                                =16;
+		FightSearch                                 =17;
+		MoveBuilding 								=18;
+		TrapRefill 									=19;
+		Research 									=20; //升级技能
+                          BuyResource                                                                                               =21;//钻石买资源
+                          ChargeDiamond                                                                                         = 22;//钻石充值
+	}
+
+	required RequestType requestType 			=1;
+	optional ArmyUpgradeReq armyUpgradeReq 		=2;
+	optional AuthLoginReq authLoginReq 			=3;
+	optional BuildingConsReq buildingConsReq 	=4;
+	optional BuildingUpgradeReq buildingUpReq 	=5;
+	optional CampReq campReq 					=6;
+	optional GatherReq gatherReq 				=7;
+	optional NoAuthLoginReq noAuthLoginReq 		=8;
+	optional ProductionReq productionReq 		=9;
+	optional BuildingCompleteReq buildingCompleteReq = 10;
+	optional BattleResultReq battleResultReq 	=11;
+	optional BattleHistoryReq battleHistoryReq 	=12;
+	optional BattleReplayReq battleReplayReq 	=13;
+	optional PlayerListReq playerListReq        =14;
+	optional ChangeAccountReq changeAccountReq  =15;
+	optional CompleteInfoReq completeInfoReq    =16;
+	optional FightSearchReq fightSearchReq      =17; 
+	optional MoveBuildingReq moveBuildingReq 	=18;
+	optional TrapRefillReq trapRefillReq 		=19;
+	optional ResearchReq researchReq 			=20;
+             optional BuyResourceReq buyResourceReq           =21;
+             optional ChargeDiamondReq chargeDiamondReq = 22;
+}

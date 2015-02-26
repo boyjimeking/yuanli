@@ -1,0 +1,10 @@
+import "BuildingVO.proto";
+import "ResourceType.proto";
+
+option java_package = "com.pureland.common.protocal";
+option java_outer_classname = "BuildingConsReqProtocal";
+
+message BuildingConsReq {
+	required BuildingVO buildingVO 			=1;
+	required ResourceType resourceType 		=2;
+}

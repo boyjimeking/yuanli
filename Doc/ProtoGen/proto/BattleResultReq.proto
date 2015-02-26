@@ -1,0 +1,10 @@
+import "BattleResultVO.proto";
+import "BattleReplayVO.proto";
+
+option java_package = "com.pureland.common.protocal";
+option java_outer_classname = "BattleResultReqProtocal";
+
+message BattleResultReq {
+	required BattleResultVO battleResultVO 				=1;
+	optional BattleReplayVO battleReplayVO 				=2;
+}

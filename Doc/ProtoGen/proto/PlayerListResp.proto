@@ -1,0 +1,8 @@
+import "PlayerLoginSimpleVO.proto";
+
+option java_package = "com.pureland.common.protocal";
+option java_outer_classname = "PlayerListRespProtocal";
+
+message PlayerListResp {
+    repeated PlayerLoginSimpleVO loginSimpleVOs 				=1; 	//登陆已有角色信息列表
+}

@@ -1,0 +1,18 @@
+import "LoginResp.proto";
+import "PlayerListResp.proto";
+import "CampResp.proto";
+import "BattleHistoryResp.proto";
+import "BattleReplayResp.proto";
+
+option java_package = "com.pureland.common.protocal";
+option java_outer_classname = "RespWrapperProtocal";
+
+message RespWrapper
+{
+	optional LoginResp loginResp    				=1;
+	optional PlayerListResp playerListResp          =2;
+	optional CampResp campResp 						=3;
+	optional BattleHistoryResp battleHistoryResp 	=4;
+	optional BattleReplayResp battleReplayResp 		=5;
+}
+

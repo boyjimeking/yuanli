@@ -1,0 +1,9 @@
+import "BattleResultVO.proto";
+
+option java_package = "com.pureland.common.protocal";
+option java_outer_classname = "BattleHistoryRespProtocal";
+
+message BattleHistoryResp {
+	repeated BattleResultVO attackBattleHistories 		=1; 	//进攻历史记录
+	repeated BattleResultVO defenseBattleHistories 		=2; 	//防守历史记录
+}

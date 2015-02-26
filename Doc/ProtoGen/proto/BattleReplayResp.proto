@@ -1,0 +1,8 @@
+import "BattleReplayVO.proto";
+
+option java_package = "com.pureland.common.protocal";
+option java_outer_classname = "BattleReplayRespProtocal";
+
+message BattleReplayResp {
+	required BattleReplayVO battleReplayVO 		=1; //录像
+}

@@ -1,0 +1,9 @@
+import "ProductionItemVO.proto";
+
+option java_package = "com.pureland.common.protocal.vo";
+option java_outer_classname = "ProductionBuildingVOProtocal";
+
+message ProductionBuildingVO {
+	repeated ProductionItemVO productionItems		=1;		//建造/训练列表
+	optional int64 endTime							=2;		//第一个建造/训练单位结束时间
+}

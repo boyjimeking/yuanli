@@ -1,0 +1,15 @@
+import "BuildingVO.proto";
+import "ArmyVO.proto";
+import "PlayerVO.proto";
+import "SkillVO.proto";
+
+option java_package = "com.pureland.common.protocal.vo";
+option java_outer_classname = "CampVOProtocal";
+
+message CampVO {
+	required PlayerVO player 			=1; 	//玩家信息
+	repeated BuildingVO buildings 		=2; 	//玩家建筑
+	repeated ArmyVO armies 				=3; 	//自己的军队
+	repeated ArmyVO donatedArmies 		=4; 	//援军
+	repeated SkillVO skills 			=5;		//技能
+}

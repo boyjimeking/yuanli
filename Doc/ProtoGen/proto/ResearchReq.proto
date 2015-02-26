@@ -1,0 +1,16 @@
+option java_package = "com.pureland.common.protocal";
+option java_outer_classname = "ResearchReqProtocal";
+
+//升级技能等级
+message ResearchReq {
+	enum ResearchRequestType
+	{
+		Research 											=1; //开始研究
+		Complete 											=2; //正常完成
+		CompleteImmediately 								=3; //立即完成
+	}
+	required ResearchRequestType researchRequestType 	=1; //请求类型
+	required int32 cid									=2; //升级什么技能
+	required int64 currentTime 							=3; //发送请求时的时间
+	optional int32 diamondCount 						=4; //立即完成使用的钻石数量
+}

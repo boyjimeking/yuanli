@@ -1,0 +1,8 @@
+﻿<linker>
+  <assembly fullname="UnityEngine">
+    <type fullname="UnityEngine.Vector2" preserve="all"/>
+    <type fullname="UnityEngine.Vector3" preserve="all"/>
+    <type fullname="UnityEngine.Vector4" preserve="all"/>
+    <type fullname="UnityEngine.Color" preserve="all"/>
+  </assembly>
+</linker>

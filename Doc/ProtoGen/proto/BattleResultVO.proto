@@ -1,0 +1,31 @@
+import "ResourceVO.proto";
+import "BattleReplayVO.proto";
+import "ArmyVO.proto";
+import "SkillVO.proto";
+
+option java_package = "com.pureland.common.protocal.vo";
+option java_outer_classname = "BattleResultVOProtocal";
+
+message BattleResultVO {
+	required int32 percentage 								=1; 	//战斗百分比
+	required int32 star 									=2; 	//战斗星数
+	required bool useDonatedArmy 							=3; 	//是否使用了援军
+	repeated ArmyVO usedArmies 								=4; 	//已使用的部队
+	repeated SkillVO usedSkills                             =5;     //已使用的技能
+	repeated ArmyVO killedDefenderDonatedArmies 			=6; 	//杀死的援军部队
+	repeated ResourceVO stolenResources 					=7; 	//被偷取资源
+	repeated int64 brokenTraps 								=8; 	//防守方被破坏的陷阱 sid列表
+
+	optional int32 rewardCrown 								=9; 	//获得的皇冠积分
+	optional int32 rewardGoldByCrownLevel 					=10;	//根据皇冠等级获得的金币奖励
+	optional int32 rewardOilByCrownLevel 					=11;	//根据皇冠等级获得的油奖励
+
+	required int64 timestamp 								=12; 	//战斗的时间
+	optional int64 battleReplayId 							=13; 	//战斗录像id
+	required int64 peerId 									=14; 	//对方id,访问参观使用
+	optional string peerName 								=15; 	//对方名字
+	optional string peerClanName 							=16; 	//对方家族名字
+	optional int64 peerClanId 								=17; 	//对方家族id,访问参观使用
+	optional int32 peerCrown 								=18; 	//对方的皇冠积分
+
+}

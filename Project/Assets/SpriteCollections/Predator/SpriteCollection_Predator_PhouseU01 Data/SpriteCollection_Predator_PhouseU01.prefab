@@ -1,0 +1,164 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: SpriteCollection_Predator_PhouseU01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: PhouseU01_base
+    boundsData:
+    - {x: .0142854452, y: .114285588, z: 0}
+    - {x: 4.1428566, y: 3.20000029, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 21.9428577, y: 21.9428577, z: 0}
+    texelSize: {x: .0285714287, y: .0285714287}
+    positions:
+    - {x: -2.05714297, y: -1.48571455, z: 0}
+    - {x: 2.08571386, y: -1.48571455, z: 0}
+    - {x: -2.05714297, y: 1.71428573, z: 0}
+    - {x: 2.08571386, y: 1.71428573, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .539066434, y: .00781640597}
+    - {x: .539066434, y: .574214816}
+    - {x: .976558566, y: .00781640597}
+    - {x: .976558566, y: .574214816}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 4f01032b8f4dcc143aca3c98f8adbef5, type: 2}
+    materialId: 0
+    sourceTextureGUID: 1d0f1f10da2137d4e90d088ba7614783
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: PhouseU01_body01
+    boundsData:
+    - {x: 0, y: 2.38571453, z: 0}
+    - {x: 3.77142859, y: 3.62857127, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 21.9428577, y: 21.9428577, z: 0}
+    texelSize: {x: .0285714287, y: .0285714287}
+    positions:
+    - {x: -1.88571429, y: .571429014, z: 0}
+    - {x: 1.88571429, y: .571429014, z: 0}
+    - {x: -1.88571429, y: 4.20000029, z: 0}
+    - {x: 1.88571429, y: 4.20000029, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00781640597, y: .00781640597}
+    - {x: .523433566, y: .00781640597}
+    - {x: .00781640597, y: .503902316}
+    - {x: .523433566, y: .503902316}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 4f01032b8f4dcc143aca3c98f8adbef5, type: 2}
+    materialId: 0
+    sourceTextureGUID: 93b3487f74e7c894594ce546f0bb491d
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 4f01032b8f4dcc143aca3c98f8adbef5, type: 2}
+  textures:
+  - {fileID: 2800000, guid: d3f4156fa2e87df40b44dbfe222df4c1, type: 3}
+  pngTextures: []
+  materialPngTextureId: 00000000
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: 5212235572a5e614c90d70d166748d08
+  spriteCollectionName: SpriteCollection_Predator_PhouseU01
+  assetName: 
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: 17.5
+  buildKey: 1945909666
+  dataGuid: b7746753e778c1d4aaf158af65f82419
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

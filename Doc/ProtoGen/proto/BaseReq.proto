@@ -1,0 +1,15 @@
+import "ReqWrapper.proto";
+import "CampVO.proto";
+
+option java_package = "com.pureland.common.protocal";
+option java_outer_classname = "BaseReqProtocal";
+
+message BaseReq
+{
+	optional string authToken						=1;
+	optional int64 timestamp						=2;
+	optional int32 sequenceId						=3;	//客户端请求到服务器时的顺序id
+	optional ReqWrapper reqWrapper 					=4;
+	optional CampVO before 							=5; //这次操作之前的数据,开发时验证使用
+	optional CampVO after 							=6; //这次操作之后的数据,开发时验证使用
+}
